@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="342" viewBox="0 0 1200 342" role="img" aria-label="Coxf0rd terminal introduction">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101925"/><stop offset="1" stop-color="#080F1B"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2D8DFA"/><stop offset="1" stop-color="#34D6BB"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="1198" height="340" rx="16" fill="url(#bg)" stroke="#2E455D" stroke-width="2"/>
+  <path d="M1 63V17Q1 1 17 1H1183Q1199 1 1199 17V63Z" fill="#1A2737"/>
+  <path d="M1 63H1199" stroke="#38516D"/>
+  <circle cx="36" cy="32" r="9" fill="#FA665F"/><circle cx="66" cy="32" r="9" fill="#F5C453"/><circle cx="96" cy="32" r="9" fill="#38CB79"/>
+  <text x="600" y="40" text-anchor="middle" font-family="DejaVu Sans, Arial" font-size="17" fill="#8CA9C0">coxf0rd@linux — terminal</text>
+  <g font-family="DejaVu Sans Mono, monospace" font-size="21">
+    <text x="34" y="110"><tspan fill="#4EE2A5">coxf0rd@linux</tspan><tspan fill="#A7B7CA">:~$ </tspan><tspan fill="#E8EFF7">whoami</tspan></text>
+    <text x="34" y="148" fill="#A9C5DF">Coxf0rd  •  Infrastructure &amp; Software Development</text>
+    <text x="34" y="195"><tspan fill="#4EE2A5">coxf0rd@linux</tspan><tspan fill="#A7B7CA">:~$ </tspan><tspan fill="#E8EFF7">cat focus.txt</tspan></text>
+    <text x="34" y="233" fill="#A9C5DF">Linux  /  Networking  /  Automation  /  DevOps</text>
+    <text x="34" y="280"><tspan fill="#4EE2A5">coxf0rd@linux</tspan><tspan fill="#A7B7CA">:~$ </tspan><tspan fill="#E8EFF7">ls ~/projects</tspan></text>
+    <text x="34" y="318" fill="#67B6FF">fwrouter/    petrinet/</text>
+  </g>
+  <path d="M1103 304H1166" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+</svg>

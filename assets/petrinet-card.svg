@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="260" viewBox="0 0 560 260" role="img" aria-label="PetriNet project card">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1A1B36"/><stop offset="1" stop-color="#101326"/></linearGradient>
+    <linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#B48AFF"/><stop offset="1" stop-color="#6BA8FF"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="558" height="258" rx="15" fill="url(#bg)" stroke="#6D629B" stroke-width="2"/>
+  <rect x="26" y="25" width="146" height="23" rx="11" fill="#363456"/>
+  <text x="39" y="41" font-size="12" font-weight="700" fill="#C9BFFF" font-family="DejaVu Sans,Arial">RUST DESKTOP</text>
+  <text x="26" y="101" font-size="35" font-weight="800" fill="#F3F1FF" font-family="DejaVu Sans,Arial">PetriNet</text>
+  <text x="26" y="134" font-size="17" fill="#B8B7DC" font-family="DejaVu Sans,Arial">Petri Net Editor &amp; Simulator</text>
+  <path d="M26 158H348" stroke="#535375" stroke-width="1.5"/>
+  <text x="26" y="189" font-size="15" fill="#DFDDFC" font-family="DejaVu Sans,Arial">Rust  •  Modeling  •  Simulation</text>
+  <text x="26" y="219" font-size="14" fill="#C9BFFF" font-family="DejaVu Sans,Arial">Registered software · RU 2026680027</text>
+  <g transform="translate(442 125)" fill="none" stroke="url(#a)" stroke-width="3" stroke-linecap="round">
+    <circle cx="-44" cy="-30" r="21"/><circle cx="55" cy="-28" r="21"/><circle cx="8" cy="60" r="21"/>
+    <rect x="-1" y="-49" width="27" height="49" rx="4" fill="#29274C"/>
+    <path d="M-23 -30H-1M26 -28H34M11 0V39M-36 -9L-2 13"/>
+    <path d="M-6 8L-2 13L-10 14M2 31L11 39L16 27" stroke-width="2"/>
+    <circle cx="-44" cy="-30" r="5" fill="#AE8AFF" stroke="none"/>
+    <circle cx="55" cy="-28" r="5" fill="#AE8AFF" stroke="none"/>
+  </g>
+</svg>

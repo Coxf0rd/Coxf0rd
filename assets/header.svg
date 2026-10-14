@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="270" viewBox="0 0 1200 270" role="img" aria-label="Coxf0rd — Linux, Networking, Automation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070D19"/><stop offset="0.55" stop-color="#101F3D"/><stop offset="1" stop-color="#092B3D"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2788FC"/><stop offset="1" stop-color="#27DACD"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#4C799D" stroke-opacity=".16" stroke-width="1"/></pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="1200" height="270" rx="20" fill="url(#bg)"/>
+  <rect width="1200" height="270" rx="20" fill="url(#grid)"/>
+  <path d="M0 269H1200" stroke="#285C7A" stroke-width="2"/>
+  <g opacity=".55" fill="none" stroke="url(#line)" stroke-width="1.4">
+    <path d="M810 0V51H866V84H922"/><path d="M1070 0V38H1021V76H982"/><path d="M1200 122H1146V161H1055"/><path d="M1198 206H1098V235H1042"/><path d="M785 270V224H858V189H918"/>
+    <path d="M903 0V30H948"/><path d="M947 270V240H979V217"/>
+  </g>
+  <g fill="#49CFFF">
+    <circle cx="922" cy="84" r="4"/><circle cx="982" cy="76" r="4"/><circle cx="1055" cy="161" r="4"/><circle cx="1042" cy="235" r="4"/><circle cx="918" cy="189" r="4"/>
+  </g>
+  <circle cx="1002" cy="140" r="91" fill="none" stroke="#268BE4" stroke-opacity=".17" stroke-width="1"/>
+  <circle cx="1002" cy="140" r="66" fill="none" stroke="#29BBD6" stroke-opacity=".25" stroke-width="1"/>
+  <path d="M950 145 L979 114 L1000 130 L1030 98 L1062 135 M957 174 L983 154 L1014 178 L1049 146" fill="none" stroke="#35B9ED" stroke-width="2.2" stroke-linejoin="round" opacity=".78"/>
+  <g font-family="DejaVu Sans,Arial,sans-serif">
+    <rect x="55" y="43" width="196" height="28" rx="14" fill="#113556" stroke="#347BAF" stroke-width="1"/>
+    <circle cx="72" cy="57" r="4" fill="#34D9B7"/>
+    <text x="86" y="62" fill="#A9D7FF" font-size="12" font-weight="700" letter-spacing="2">SYSTEMS / CODE</text>
+    <text x="52" y="167" fill="#F4F8FF" font-size="85" font-weight="800" letter-spacing="6">COXF0RD</text>
+    <rect x="55" y="187" width="447" height="3" rx="1" fill="url(#line)"/>
+    <text x="56" y="225" fill="#9FBBD1" font-size="20" font-weight="500" letter-spacing="3">LINUX  /  NETWORKING  /  AUTOMATION</text>
+    <text x="1018" y="51" fill="#77E7DE" font-size="13" font-family="monospace">01/CORE</text>
+    <text x="1021" y="248" fill="#77E7DE" font-size="13" font-family="monospace">ONLINE_</text>
+  </g>
+</svg>
