@@ -1,74 +1,77 @@
-# Привет, я Coxf0rd
+![Coxf0rd](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0D1117,100:1F6FEB&text=COXF0RD&fontColor=FFFFFF&fontSize=58&fontAlignY=38&desc=LINUX%20%7C%20NETWORKING%20%7C%20AUTOMATION&descSize=16&descAlignY=61)
 
-**Linux · Сетевые технологии · DevOps · Автоматизация**
-
-[Русский](README.md) | [English](README_EN.md)
-
----
+[![Русский](https://img.shields.io/badge/Русский-1F6FEB?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/English-30363D?style=for-the-badge)](README_EN.md)
 
 ### Обо мне
 
-Занимаюсь разработкой программного обеспечения, настройкой Linux-систем и сетевой инфраструктуры.
+Разрабатываю программное обеспечение и инструменты для управления Linux-системами и сетевой инфраструктурой.
 
-Окончил бакалавриат по направлению «Информационные системы и технологии». Сейчас обучаюсь в магистратуре КНИТУ-КАИ по направлению «Информатика и вычислительная техника».
+Основные направления — **Linux, сети, backend-разработка и автоматизация**. Интересуюсь архитектурой серверных систем, контейнеризацией и DevOps-практиками.
 
-Основные интересы — Linux, компьютерные сети, серверная инфраструктура, автоматизация и DevOps.
+Предпочитаю практические проекты: от проектирования архитектуры и разработки до развёртывания, настройки и сопровождения.
 
-### Технологии и инструменты
+---
 
-**Операционные системы и инфраструктура**
+### Технологии
 
-Linux · Docker · Docker Compose · systemd · Bash
+**Системы и инфраструктура**
+
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Разработка**
 
-Python · FastAPI · Rust · Git · REST API
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-**Сети**
+**Сети и сервисы**
 
-TCP/IP · DNS · DHCP · VPN · nftables · Маршрутизация · MikroTik · pfSense
-
-**Изучаю и развиваю**
-
-CI/CD · GitLab CI · GitHub Actions · Автоматизация инфраструктуры
-
----
-
-### Проекты
-
-#### [FWRouter](https://github.com/Coxf0rd/fwrouter)
-
-Система управления сетевой инфраструктурой Linux с веб-интерфейсом.
-
-Основные возможности:
-- Управление глобальной и выборочной маршрутизацией трафика.
-- Работа с nftables и policy-based routing.
-- Управление настройками через FastAPI и веб-интерфейс.
-- Интеграция с systemd.
-- Подключение дополнительных сетевых сервисов и Docker-контейнеров.
-
-**Стек:** Python, FastAPI, SQLite, Linux, nftables, systemd, Docker.
-
-#### PetriNet
-
-Настольное приложение для визуального построения, редактирования и имитационного моделирования сетей Петри.
-
-Разработано на Rust. Включает графический редактор и инструменты моделирования.
-
-Являюсь соавтором программы, зарегистрированной в Роспатенте (свидетельство № 2026680027).
-
-Исходный код публично не распространяется.
+`TCP/IP` · `DNS` · `DHCP` · `VPN` · `nftables` · `Policy Routing` · `systemd` · `REST API`
 
 ---
 
-### Сейчас изучаю
+### Избранные проекты
 
-- Продвинутое администрирование Linux.
-- Контейнеризацию и Docker.
-- Bash-скрипты и автоматизацию.
-- CI/CD и процессы развёртывания.
-- Архитектуру и эксплуатацию серверных систем.
+#### FWRouter — Linux Network Control Plane
+
+[![Repository](https://img.shields.io/badge/GitHub-Открыть_репозиторий-238636?style=for-the-badge&logo=github)](https://github.com/Coxf0rd/fwrouter)
+![Status](https://img.shields.io/badge/Status-Active_Development-1F6FEB?style=for-the-badge)
+
+Система управления маршрутизацией и сетевой инфраструктурой Linux через веб-интерфейс.
+
+**Возможности:**
+- Глобальная и выборочная маршрутизация сетевого трафика.
+- Управление `nftables` и policy-based routing.
+- Backend на FastAPI с хранением состояния в SQLite.
+- Интеграция с системными службами через systemd.
+- Подключение дополнительных сетевых компонентов и Docker-сервисов.
+
+**Стек:** `Python` `FastAPI` `SQLite` `Linux` `nftables` `systemd` `Docker`
+
+#### PetriNet — редактор и симулятор сетей Петри
+
+Настольное приложение на Rust для визуального построения, редактирования и имитационного моделирования сетей Петри.
+
+Включает графический редактор, движок моделирования и инструменты анализа.
+
+**Соавтор зарегистрированной программы для ЭВМ.**
+
+Свидетельство Роспатента № 2026680027. Исходный код не опубликован.
 
 ---
 
-*Интересуюсь инфраструктурной разработкой, автоматизацией и инженерными задачами.*
+### Сейчас в фокусе
+
+- Linux System Administration
+- Docker & Containerization
+- CI/CD & Automation
+- Networking & Infrastructure Security
+
+---
+
+*Инженерные проекты, Linux-инфраструктура и автоматизация.*
