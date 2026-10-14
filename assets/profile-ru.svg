@@ -1,0 +1,145 @@
+<svg width="1200" height="1520" viewBox="0 0 1200 1520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">COXF0RD — GitHub профиль</title>
+  <desc id="desc">Единый SVG-профиль в тёмно-синем техно-стиле с разделами Обо мне, стек, проекты и направления развития.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="1" stop-color="#02070F"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="980" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1D33"/>
+      <stop offset="1" stop-color="#07111E"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2EE6FF"/>
+      <stop offset="1" stop-color="#0A7BFF"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#17304D" stroke-opacity="0.33" stroke-width="1"/>
+    </pattern>
+    <style>
+      .h1{font:700 64px 'Segoe UI',Inter,Arial,sans-serif; fill:#F2F8FF; letter-spacing:2px}
+      .h2{font:700 30px 'Segoe UI',Inter,Arial,sans-serif; fill:#E7F2FF}
+      .h3{font:700 24px 'Segoe UI',Inter,Arial,sans-serif; fill:#E7F2FF}
+      .body{font:400 22px 'Segoe UI',Inter,Arial,sans-serif; fill:#C9D8EA}
+      .small{font:400 19px 'Segoe UI',Inter,Arial,sans-serif; fill:#9EB5CC}
+      .tiny{font:600 14px 'Segoe UI',Inter,Arial,sans-serif; fill:#8EDCFF; letter-spacing:1.2px}
+      .pill{font:600 18px 'Segoe UI',Inter,Arial,sans-serif; fill:#D9ECFF}
+      .mono{font:600 22px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#DCEBFF}
+      .mono2{font:600 20px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#A9F3C6}
+      .mono3{font:600 20px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#7CD6FF}
+      .mono4{font:600 20px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#F4F7FB}
+      .tag{font:600 16px 'Segoe UI',Inter,Arial,sans-serif; fill:#DDEEFF}
+    </style>
+  </defs>
+
+  <rect width="1200" height="1520" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="1520" rx="34" fill="url(#grid)" opacity="0.9"/>
+
+  <!-- decorative lines -->
+  <path d="M1030 90H1128V180H1068" stroke="#1CC8FF" stroke-width="2.5" opacity="0.7"/>
+  <path d="M78 1340H200V1450H325" stroke="#1CC8FF" stroke-width="2.5" opacity="0.45"/>
+  <path d="M1000 1320H1118V1438H1148" stroke="#1CC8FF" stroke-width="2.5" opacity="0.45"/>
+
+  <!-- Header card -->
+  <rect x="60" y="56" width="1080" height="206" rx="26" fill="url(#card)" stroke="#1B4E7A"/>
+  <line x1="92" y1="194" x2="510" y2="194" stroke="url(#glow)" stroke-width="4"/>
+  <rect x="90" y="84" width="126" height="34" rx="17" fill="#0D2740" stroke="#2A608A"/>
+  <text x="111" y="106" class="tiny">SYSTEMS / CODE</text>
+  <text x="92" y="166" class="h1">COXF0RD</text>
+  <text x="92" y="222" class="body">LINUX / NETWORKING / AUTOMATION</text>
+
+  <g transform="translate(900 80)">
+    <circle cx="108" cy="72" r="62" fill="#0A1830" stroke="#1D4D79"/>
+    <circle cx="108" cy="72" r="44" fill="none" stroke="#22D4FF" stroke-width="3" opacity="0.9"/>
+    <path d="M72 88 L92 64 L114 80 L144 48" stroke="#59D7FF" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
+    <circle cx="144" cy="48" r="4.5" fill="#59D7FF"/>
+    <circle cx="92" cy="64" r="4.5" fill="#59D7FF"/>
+    <circle cx="114" cy="80" r="4.5" fill="#59D7FF"/>
+    <text x="117" y="18" class="tiny" text-anchor="middle">01 / CORE</text>
+    <text x="163" y="142" class="tiny" text-anchor="end">ONLINE_</text>
+  </g>
+
+  <!-- About -->
+  <text x="60" y="326" class="h2">01 / Обо мне</text>
+  <text x="60" y="372" class="body">
+    <tspan x="60" dy="0">Разрабатываю программное обеспечение и инструменты для Linux-систем, сетевой</tspan>
+    <tspan x="60" dy="30">инфраструктуры и автоматизации. Интересуюсь backend-разработкой,</tspan>
+    <tspan x="60" dy="30">маршрутизацией трафика и DevOps-практиками. Основной интерес — инженерные</tspan>
+    <tspan x="60" dy="30">задачи: от понимания архитектуры до развёртывания и диагностики.</tspan>
+  </text>
+
+  <!-- Terminal -->
+  <g transform="translate(60 438)">
+    <rect width="1080" height="240" rx="22" fill="#061325" stroke="#1A4F7D"/>
+    <rect width="1080" height="44" rx="22" fill="#14243A"/>
+    <circle cx="28" cy="22" r="7" fill="#FFB84D"/>
+    <circle cx="52" cy="22" r="7" fill="#FF6B6B"/>
+    <circle cx="76" cy="22" r="7" fill="#52D273"/>
+    <text x="540" y="28" class="small" text-anchor="middle">coxford@linux — terminal</text>
+    <text x="34" y="92" class="mono2">coxford@linux:~$ </text><text x="262" y="92" class="mono">whoami</text>
+    <text x="34" y="132" class="mono4">Coxf0rd • Infrastructure &amp; Software Development</text>
+    <text x="34" y="176" class="mono2">coxford@linux:~$ </text><text x="262" y="176" class="mono">cat focus.txt</text>
+    <text x="34" y="216" class="mono3">Linux / Networking / Automation / DevOps</text>
+  </g>
+
+  <!-- Tech -->
+  <text x="60" y="754" class="h2">02 / Технологии и инструменты</text>
+  <g transform="translate(60 780)">
+    <rect width="1080" height="188" rx="22" fill="#081426" stroke="#1A4F7D"/>
+    <!-- pills row 1 -->
+    <g transform="translate(28 28)">
+      <rect width="90" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="45" y="35" class="pill" text-anchor="middle">Linux</text>
+      <rect x="102" width="98" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="151" y="35" class="pill" text-anchor="middle">Docker</text>
+      <rect x="214" width="98" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="263" y="35" class="pill" text-anchor="middle">Python</text>
+      <rect x="326" width="82" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="367" y="35" class="pill" text-anchor="middle">Rust</text>
+      <rect x="422" width="86" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="465" y="35" class="pill" text-anchor="middle">Bash</text>
+      <rect x="522" width="70" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="557" y="35" class="pill" text-anchor="middle">Git</text>
+      <rect x="606" width="106" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="659" y="35" class="pill" text-anchor="middle">FastAPI</text>
+      <rect x="726" width="96" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="774" y="35" class="pill" text-anchor="middle">SQLite</text>
+      <rect x="836" width="100" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="886" y="35" class="pill" text-anchor="middle">nftables</text>
+    </g>
+    <text x="30" y="122" class="small">Инфраструктура: Linux · Docker · systemd · Bash · Git</text>
+    <text x="30" y="150" class="small">Разработка: Python · FastAPI · Rust · REST API · SQLite</text>
+    <text x="30" y="178" class="small">Сети: TCP/IP · DNS · DHCP · VPN · nftables · Policy Routing</text>
+  </g>
+
+  <!-- Projects -->
+  <text x="60" y="1030" class="h2">03 / Избранные проекты</text>
+
+  <g transform="translate(60 1058)">
+    <rect width="1080" height="172" rx="22" fill="#09172A" stroke="#1A4F7D"/>
+    <rect x="26" y="24" width="190" height="124" rx="18" fill="#0A1E34" stroke="#295E88"/>
+    <circle cx="122" cy="87" r="38" fill="none" stroke="#2AD7FF" stroke-width="2.5" opacity="0.9"/>
+    <circle cx="122" cy="87" r="18" fill="none" stroke="#2AD7FF" stroke-width="2" opacity="0.9"/>
+    <path d="M122 49V125M84 87H160M96 61L148 113M148 61L96 113" stroke="#2AD7FF" stroke-opacity="0.55" stroke-width="1.8"/>
+    <text x="246" y="58" class="h3">FWRouter</text>
+    <text x="246" y="90" class="body">Маршрутизация Linux, сетевые политики и управление</text>
+    <text x="246" y="122" class="small">Web UI · FastAPI Control Plane · nftables · policy routing · Mihomo · Xray</text>
+    <rect x="908" y="26" width="146" height="34" rx="12" fill="#0E2944" stroke="#2C638F"/>
+    <text x="981" y="48" class="tiny" text-anchor="middle">OPEN SOURCE</text>
+  </g>
+
+  <g transform="translate(60 1252)">
+    <rect width="1080" height="172" rx="22" fill="#09172A" stroke="#1A4F7D"/>
+    <rect x="26" y="24" width="190" height="124" rx="18" fill="#0A1E34" stroke="#295E88"/>
+    <circle cx="122" cy="87" r="36" fill="none" stroke="#2AD7FF" stroke-width="2.5" opacity="0.9"/>
+    <path d="M90 64H114V86H138V110H114V86H90V64Z" fill="#2AD7FF" fill-opacity="0.17" stroke="#2AD7FF"/>
+    <path d="M122 52V64M122 110V122M86 87H98M146 87H158" stroke="#2AD7FF" stroke-width="2"/>
+    <text x="246" y="58" class="h3">PetriNet</text>
+    <text x="246" y="90" class="body">Редактор и симулятор сетей Петри</text>
+    <text x="246" y="122" class="small">Rust · моделирование систем · настольное приложение · исследование сетей Петри</text>
+    <rect x="864" y="26" width="190" height="34" rx="12" fill="#0E2944" stroke="#2C638F"/>
+    <text x="959" y="48" class="tiny" text-anchor="middle">SOURCE CLOSED</text>
+  </g>
+
+  <!-- Focus -->
+  <text x="60" y="1472" class="small">Текущий фокус: CI/CD · контейнеризация · инфраструктурная автоматизация · сетевая безопасность</text>
+</svg>
