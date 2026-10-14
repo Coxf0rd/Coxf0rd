@@ -1,74 +1,77 @@
-# Hi, I'm Coxf0rd
+![Coxf0rd](https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0D1117,100:1F6FEB&text=COXF0RD&fontColor=FFFFFF&fontSize=58&fontAlignY=38&desc=LINUX%20%7C%20NETWORKING%20%7C%20AUTOMATION&descSize=16&descAlignY=61)
 
-**Linux · Networking · DevOps · Automation**
-
-[Русский](README.md) | [English](README_EN.md)
-
----
+[![Русский](https://img.shields.io/badge/Русский-30363D?style=for-the-badge)](README.md)
+[![English](https://img.shields.io/badge/English-1F6FEB?style=for-the-badge)](README_EN.md)
 
 ### About Me
 
-I'm interested in software development, Linux system administration, and network infrastructure.
+I develop software and tools for managing Linux systems and network infrastructure.
 
-I hold a bachelor's degree in Information Systems and Technologies and am currently pursuing a master's degree in Computer Science and Engineering at KNRTU-KAI.
+My main areas of interest are **Linux, networking, backend development, and automation**. I'm particularly interested in server architecture, containerization, and DevOps practices.
 
-My main interests include Linux, networking, server infrastructure, automation, and DevOps.
+I focus on practical engineering projects, from architecture and development to deployment, configuration, and maintenance.
 
-### Technologies & Tools
+---
+
+### Tech Stack
 
 **Systems & Infrastructure**
 
-Linux · Docker · Docker Compose · systemd · Bash
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Development**
 
-Python · FastAPI · Rust · Git · REST API
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 
-**Networking**
+**Networking & Services**
 
-TCP/IP · DNS · DHCP · VPN · nftables · Routing · MikroTik · pfSense
-
-**Currently Exploring**
-
-CI/CD · GitLab CI · GitHub Actions · Infrastructure Automation
+`TCP/IP` · `DNS` · `DHCP` · `VPN` · `nftables` · `Policy Routing` · `systemd` · `REST API`
 
 ---
 
-### Projects
+### Featured Projects
 
-#### [FWRouter](https://github.com/Coxf0rd/fwrouter)
+#### FWRouter — Linux Network Control Plane
 
-A Linux network infrastructure management system with a web interface.
+[![Repository](https://img.shields.io/badge/GitHub-View_Repository-238636?style=for-the-badge&logo=github)](https://github.com/Coxf0rd/fwrouter)
+![Status](https://img.shields.io/badge/Status-Active_Development-1F6FEB?style=for-the-badge)
 
-Key features:
+A Linux traffic-routing and network infrastructure management system with a web interface.
+
+**Key Features:**
 - Global and selective traffic routing.
-- nftables and policy-based routing.
-- Configuration management through FastAPI and a web interface.
-- systemd integration.
-- Optional network service and Docker container integrations.
+- nftables and policy-based routing management.
+- FastAPI backend with persistent SQLite state.
+- systemd service integration.
+- Optional networking components and Docker-based services.
 
-**Stack:** Python, FastAPI, SQLite, Linux, nftables, systemd, Docker.
+**Stack:** `Python` `FastAPI` `SQLite` `Linux` `nftables` `systemd` `Docker`
 
-#### PetriNet
+#### PetriNet — Petri Net Editor & Simulator
 
-A Rust desktop application for visual editing and simulation of Petri nets.
+A Rust desktop application for visual modeling, editing, and simulation of Petri nets.
 
-Includes a graphical editor and simulation tools.
+Includes a graphical editor, simulation engine, and analysis tools.
 
-I'm a co-author of the software registered with the Russian Federal Service for Intellectual Property (Registration No. 2026680027).
+**Co-author of a registered software application.**
 
-The source code is not publicly available.
-
----
-
-### Currently Learning
-
-- Advanced Linux system administration.
-- Docker and containerization.
-- Bash scripting and automation.
-- CI/CD and deployment workflows.
-- Server architecture and operations.
+Russian software registration No. 2026680027. Source code is not publicly available.
 
 ---
 
-*Interested in infrastructure engineering, automation, and practical software development.*
+### Current Focus
+
+- Linux System Administration
+- Docker & Containerization
+- CI/CD & Automation
+- Networking & Infrastructure Security
+
+---
+
+*Engineering projects, Linux infrastructure, and automation.*
