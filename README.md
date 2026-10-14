@@ -1,65 +1,49 @@
 <p align="center">
-  <img src="assets/header.svg" alt="Coxf0rd — Linux / Networking / Automation" width="100%" />
+  <img src="assets/header.svg" alt="COXF0RD — Linux / Networking / Automation" width="100%" />
 </p>
 
 <p align="center">
-  <a href="README.md"><img src="https://img.shields.io/badge/Русский-238636?style=for-the-badge" alt="Русский" /></a>
-  <a href="README_EN.md"><img src="https://img.shields.io/badge/English-30363D?style=for-the-badge" alt="English" /></a>
+  <a href="README.md"><img src="assets/lang-ru-active.svg" alt="Русский" height="31" /></a>&nbsp;
+  <a href="README_EN.md"><img src="assets/lang-en-inactive.svg" alt="English" height="31" /></a>
 </p>
 
-### Обо мне
+### `01 /` Обо мне
 
-Разрабатываю программное обеспечение и инструменты для **Linux-систем, сетевой инфраструктуры и автоматизации**. Интересуюсь backend-разработкой, маршрутизацией трафика и DevOps-практиками. Основной подход — решать практические инженерные задачи и разбираться в устройстве систем.
-
-### `~/about` — терминал
+Разрабатываю программное обеспечение и инструменты для **Linux-систем, сетевой инфраструктуры и автоматизации**. Интересуюсь backend-разработкой, маршрутизацией трафика и DevOps-практиками. Главный интерес — инженерные задачи: от понимания архитектуры до развёртывания и диагностики.
 
 <p align="center">
-  <img src="assets/terminal.svg" alt="Coxf0rd terminal profile" width="100%" />
+  <img src="assets/terminal.svg" alt="Терминал: whoami, focus.txt и проекты" width="100%" />
 </p>
 
-### Технологии и инструменты
+### `02 /` Технологии и инструменты
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Linux-0D1117?style=flat-square&logo=linux&logoColor=FCC624" alt="Linux" />
-  <img src="https://img.shields.io/badge/Docker-0D1117?style=flat-square&logo=docker&logoColor=2496ED" alt="Docker" />
-  <img src="https://img.shields.io/badge/Python-0D1117?style=flat-square&logo=python&logoColor=3776AB" alt="Python" />
-  <img src="https://img.shields.io/badge/Rust-0D1117?style=flat-square&logo=rust&logoColor=FFFFFF" alt="Rust" />
-  <img src="https://img.shields.io/badge/Bash-0D1117?style=flat-square&logo=gnubash&logoColor=4EAA25" alt="Bash" />
-  <img src="https://img.shields.io/badge/Git-0D1117?style=flat-square&logo=git&logoColor=F05032" alt="Git" />
-  <img src="https://img.shields.io/badge/FastAPI-0D1117?style=flat-square&logo=fastapi&logoColor=009688" alt="FastAPI" />
+  <img src="assets/tech-stack.svg" alt="Linux, Docker, Python, Rust, Bash, Git, FastAPI, SQLite, nftables" width="100%" />
 </p>
 
-**Инфраструктура:** `Linux` · `Docker` · `systemd` · `Bash` · `Git`
-
-**Разработка:** `Python` · `FastAPI` · `Rust` · `REST API` · `SQLite`
-
+**Инфраструктура:** `Linux` · `Docker` · `systemd` · `Bash` · `Git`  
+**Разработка:** `Python` · `FastAPI` · `Rust` · `REST API` · `SQLite`  
 **Сети:** `TCP/IP` · `DNS` · `DHCP` · `VPN` · `nftables` · `Policy Routing`
 
-### Избранные проекты
+### `03 /` Избранные проекты
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/Coxf0rd/fwrouter">
-        <img src="assets/fwrouter-card.svg" alt="FWRouter — Linux Network Control Plane" width="100%" />
-      </a>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/petrinet-card.svg" alt="PetriNet — Petri Net Editor &amp; Simulator" width="100%" />
-    </td>
-  </tr>
-</table>
+<a href="https://github.com/Coxf0rd/fwrouter"><img src="assets/fwrouter-ru.svg" alt="FWRouter — Linux Network Control Plane" width="100%" /></a>
 
-**[FWRouter](https://github.com/Coxf0rd/fwrouter)** — система управления маршрутизацией Linux с веб-интерфейсом, собственным Control Plane, поддержкой nftables / policy routing и опциональными VPN-интеграциями.
+**[FWRouter](https://github.com/Coxf0rd/fwrouter)** — система управления сетевой маршрутизацией Linux. В проекте есть собственные Web UI и FastAPI Control Plane, управление `nftables` и policy routing, а также опциональные интеграции Mihomo и Xray.
 
-**PetriNet** — настольный редактор и симулятор сетей Петри на Rust. Соавтор зарегистрированной программы для ЭВМ (свидетельство № 2026680027); исходный код не опубликован.
+<img src="assets/petrinet-ru.svg" alt="PetriNet — редактор и симулятор сетей Петри" width="100%" />
 
-### Сейчас в фокусе
+**PetriNet** — настольное приложение на Rust для построения, исследования и имитационного моделирования сетей Петри. Соавтор программы, зарегистрированной в Роспатенте (№ 2026680027). Исходный код не находится в открытом доступе.
 
-`Linux administration` · `Docker / Compose` · `Bash automation` · `CI/CD` · `Network infrastructure`
+### `04 /` Текущие направления
+
+<img src="assets/focus-ru.svg" alt="CI/CD, контейнеризация, инфраструктурная автоматизация, сетевая безопасность" width="100%" />
+
+<!-- Когда архитектурная схема будет готова, можно добавить её здесь:
+### `05 /` Архитектура FWRouter
+![FWRouter Architecture](assets/fwrouter-architecture.svg)
+-->
 
 ---
 
-<p align="center">
-  <sub>Linux • Networking • Automation • Practical engineering</sub>
-</p>
+<p align="center"><sub>Linux · Networking · Automation · Engineering</sub></p>
