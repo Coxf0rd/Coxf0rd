@@ -1,122 +1,769 @@
-<svg width="1200" height="1520" viewBox="0 0 1200 1520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">COXF0RD — GitHub profile</title>
-  <desc id="desc">Single-file dark blue tech profile SVG with About, Tech Stack, Projects and Current Focus sections.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="1520" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#07111F"/>
-      <stop offset="1" stop-color="#02070F"/>
-    </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="980" y2="220" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0D1D33"/>
-      <stop offset="1" stop-color="#07111E"/>
-    </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2EE6FF"/>
-      <stop offset="1" stop-color="#0A7BFF"/>
-    </linearGradient>
-    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="12" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#17304D" stroke-opacity="0.33" stroke-width="1"/>
-    </pattern>
-    <style>
-      .h1{font:700 64px 'Segoe UI',Inter,Arial,sans-serif; fill:#F2F8FF; letter-spacing:2px}
-      .h2{font:700 30px 'Segoe UI',Inter,Arial,sans-serif; fill:#E7F2FF}
-      .h3{font:700 24px 'Segoe UI',Inter,Arial,sans-serif; fill:#E7F2FF}
-      .body{font:400 22px 'Segoe UI',Inter,Arial,sans-serif; fill:#C9D8EA}
-      .small{font:400 19px 'Segoe UI',Inter,Arial,sans-serif; fill:#9EB5CC}
-      .tiny{font:600 14px 'Segoe UI',Inter,Arial,sans-serif; fill:#8EDCFF; letter-spacing:1.2px}
-      .pill{font:600 18px 'Segoe UI',Inter,Arial,sans-serif; fill:#D9ECFF}
-      .mono{font:600 22px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#DCEBFF}
-      .mono2{font:600 20px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#A9F3C6}
-      .mono3{font:600 20px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#7CD6FF}
-      .mono4{font:600 20px 'Consolas','SFMono-Regular','Courier New',monospace; fill:#F4F7FB}
-    </style>
-  </defs>
-  <rect width="1200" height="1520" rx="34" fill="url(#bg)"/>
-  <rect width="1200" height="1520" rx="34" fill="url(#grid)" opacity="0.9"/>
-  <path d="M1030 90H1128V180H1068" stroke="#1CC8FF" stroke-width="2.5" opacity="0.7"/>
-  <path d="M78 1340H200V1450H325" stroke="#1CC8FF" stroke-width="2.5" opacity="0.45"/>
-  <path d="M1000 1320H1118V1438H1148" stroke="#1CC8FF" stroke-width="2.5" opacity="0.45"/>
-  <rect x="60" y="56" width="1080" height="206" rx="26" fill="url(#card)" stroke="#1B4E7A"/>
-  <line x1="92" y1="194" x2="510" y2="194" stroke="url(#glow)" stroke-width="4"/>
-  <rect x="90" y="84" width="126" height="34" rx="17" fill="#0D2740" stroke="#2A608A"/>
-  <text x="111" y="106" class="tiny">SYSTEMS / CODE</text>
-  <text x="92" y="166" class="h1">COXF0RD</text>
-  <text x="92" y="222" class="body">LINUX / NETWORKING / AUTOMATION</text>
-  <g transform="translate(900 80)">
-    <circle cx="108" cy="72" r="62" fill="#0A1830" stroke="#1D4D79"/>
-    <circle cx="108" cy="72" r="44" fill="none" stroke="#22D4FF" stroke-width="3" opacity="0.9"/>
-    <path d="M72 88 L92 64 L114 80 L144 48" stroke="#59D7FF" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
-    <circle cx="144" cy="48" r="4.5" fill="#59D7FF"/>
-    <circle cx="92" cy="64" r="4.5" fill="#59D7FF"/>
-    <circle cx="114" cy="80" r="4.5" fill="#59D7FF"/>
-    <text x="117" y="18" class="tiny" text-anchor="middle">01 / CORE</text>
-    <text x="163" y="142" class="tiny" text-anchor="end">ONLINE_</text>
-  </g>
-  <text x="60" y="326" class="h2">01 / About Me</text>
-  <text x="60" y="372" class="body">
-    <tspan x="60" dy="0">I build software and tools for Linux systems, network infrastructure and</tspan>
-    <tspan x="60" dy="30">automation. I'm interested in backend development, traffic routing and</tspan>
-    <tspan x="60" dy="30">DevOps practices. My main focus is engineering work: understanding</tspan>
-    <tspan x="60" dy="30">architecture, deploying services and diagnosing systems.</tspan>
-  </text>
-  <g transform="translate(60 438)">
-    <rect width="1080" height="240" rx="22" fill="#061325" stroke="#1A4F7D"/>
-    <rect width="1080" height="44" rx="22" fill="#14243A"/>
-    <circle cx="28" cy="22" r="7" fill="#FFB84D"/>
-    <circle cx="52" cy="22" r="7" fill="#FF6B6B"/>
-    <circle cx="76" cy="22" r="7" fill="#52D273"/>
-    <text x="540" y="28" class="small" text-anchor="middle">coxford@linux — terminal</text>
-    <text x="34" y="92" class="mono2">coxford@linux:~$ </text><text x="262" y="92" class="mono">whoami</text>
-    <text x="34" y="132" class="mono4">Coxf0rd • Infrastructure &amp; Software Development</text>
-    <text x="34" y="176" class="mono2">coxford@linux:~$ </text><text x="262" y="176" class="mono">cat focus.txt</text>
-    <text x="34" y="216" class="mono3">Linux / Networking / Automation / DevOps</text>
-  </g>
-  <text x="60" y="754" class="h2">02 / Technologies &amp; Tools</text>
-  <g transform="translate(60 780)">
-    <rect width="1080" height="188" rx="22" fill="#081426" stroke="#1A4F7D"/>
-    <g transform="translate(28 28)">
-      <rect width="90" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="45" y="35" class="pill" text-anchor="middle">Linux</text>
-      <rect x="102" width="98" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="151" y="35" class="pill" text-anchor="middle">Docker</text>
-      <rect x="214" width="98" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="263" y="35" class="pill" text-anchor="middle">Python</text>
-      <rect x="326" width="82" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="367" y="35" class="pill" text-anchor="middle">Rust</text>
-      <rect x="422" width="86" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="465" y="35" class="pill" text-anchor="middle">Bash</text>
-      <rect x="522" width="70" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="557" y="35" class="pill" text-anchor="middle">Git</text>
-      <rect x="606" width="106" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="659" y="35" class="pill" text-anchor="middle">FastAPI</text>
-      <rect x="726" width="96" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="774" y="35" class="pill" text-anchor="middle">SQLite</text>
-      <rect x="836" width="100" height="58" rx="14" fill="#0D2139" stroke="#2C638F"/><text x="886" y="35" class="pill" text-anchor="middle">nftables</text>
-    </g>
-    <text x="30" y="122" class="small">Infrastructure: Linux · Docker · systemd · Bash · Git</text>
-    <text x="30" y="150" class="small">Development: Python · FastAPI · Rust · REST API · SQLite</text>
-    <text x="30" y="178" class="small">Networking: TCP/IP · DNS · DHCP · VPN · nftables · Policy Routing</text>
-  </g>
-  <text x="60" y="1030" class="h2">03 / Featured Projects</text>
-  <g transform="translate(60 1058)">
-    <rect width="1080" height="172" rx="22" fill="#09172A" stroke="#1A4F7D"/>
-    <rect x="26" y="24" width="190" height="124" rx="18" fill="#0A1E34" stroke="#295E88"/>
-    <circle cx="122" cy="87" r="38" fill="none" stroke="#2AD7FF" stroke-width="2.5" opacity="0.9"/>
-    <circle cx="122" cy="87" r="18" fill="none" stroke="#2AD7FF" stroke-width="2" opacity="0.9"/>
-    <path d="M122 49V125M84 87H160M96 61L148 113M148 61L96 113" stroke="#2AD7FF" stroke-opacity="0.55" stroke-width="1.8"/>
-    <text x="246" y="58" class="h3">FWRouter</text>
-    <text x="246" y="90" class="body">Linux routing, network policies and control plane</text>
-    <text x="246" y="122" class="small">Web UI · FastAPI Control Plane · nftables · policy routing · Mihomo · Xray</text>
-    <rect x="908" y="26" width="146" height="34" rx="12" fill="#0E2944" stroke="#2C638F"/>
-    <text x="981" y="48" class="tiny" text-anchor="middle">OPEN SOURCE</text>
-  </g>
-  <g transform="translate(60 1252)">
-    <rect width="1080" height="172" rx="22" fill="#09172A" stroke="#1A4F7D"/>
-    <rect x="26" y="24" width="190" height="124" rx="18" fill="#0A1E34" stroke="#295E88"/>
-    <circle cx="122" cy="87" r="36" fill="none" stroke="#2AD7FF" stroke-width="2.5" opacity="0.9"/>
-    <path d="M90 64H114V86H138V110H114V86H90V64Z" fill="#2AD7FF" fill-opacity="0.17" stroke="#2AD7FF"/>
-    <path d="M122 52V64M122 110V122M86 87H98M146 87H158" stroke="#2AD7FF" stroke-width="2"/>
-    <text x="246" y="58" class="h3">PetriNet</text>
-    <text x="246" y="90" class="body">Petri net editor and simulation tool</text>
-    <text x="246" y="122" class="small">Rust · system modelling · desktop application · Petri net simulation</text>
-    <rect x="864" y="26" width="190" height="34" rx="12" fill="#0E2944" stroke="#2C638F"/>
-    <text x="959" y="48" class="tiny" text-anchor="middle">SOURCE CLOSED</text>
-  </g>
-  <text x="60" y="1472" class="small">Current focus: CI/CD · containerization · infrastructure automation · network security</text>
-</svg>
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" width="1280" height="2310" viewBox="0 0 1280 2310" version="1.1" role="img">
+  <ns0:title id="title">COXF0RD — unified Tech Dark Blue GitHub profile</ns0:title>
+  <ns0:desc id="desc">Single blue-themed SVG with hero, terminal, technology, FWRouter and PetriNet</ns0:desc>
+  <ns0:defs>
+    <ns0:linearGradient id="all_bg" x1="0" y1="0" x2="1" y2="1">
+      <ns0:stop offset="0" stop-color="#051324"/>
+      <ns0:stop offset=".55" stop-color="#05101e"/>
+      <ns0:stop offset="1" stop-color="#030b15"/>
+    </ns0:linearGradient>
+    <ns0:radialGradient id="aura" cx=".78" cy=".09" r=".7">
+      <ns0:stop offset="0" stop-color="#0b3a77" stop-opacity=".26"/>
+      <ns0:stop offset="1" stop-color="#061329" stop-opacity="0"/>
+    </ns0:radialGradient>
+    <ns0:pattern id="global_grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <ns0:path d="M40 0 H0 V40" fill="none" stroke="#2770ad" stroke-opacity=".1"/>
+    </ns0:pattern>
+  </ns0:defs>
+  <ns0:rect width="1280" height="2310" fill="url(#all_bg)"/>
+  <ns0:rect width="1280" height="2310" fill="url(#aura)"/>
+  <ns0:rect width="1280" height="2310" fill="url(#global_grid)"/>
+  <ns0:g fill="none" stroke="#1a7fd4" stroke-width="1.5" opacity=".28">
+    <ns0:path d="M0 570 H29 V600 H62"/>
+    <ns0:path d="M1280 470 H1228 V510 H1162"/>
+    <ns0:path d="M0 1320 H36 V1300 H67"/>
+    <ns0:path d="M1280 1880 H1225 V1915 H1160"/>
+    <ns0:path d="M0 2260 H92 V2200 H146"/>
+  </ns0:g>
+  <ns0:svg x="16" y="16" width="1248" height="341" viewBox="0 0 1280 350" preserveAspectRatio="xMidYMid meet">
+    <ns0:defs>
+<ns0:linearGradient id="hdr_bg" x1="0" y1="0" x2="1" y2="1"><ns0:stop stop-color="#07101f"/><ns0:stop offset="0.53" stop-color="#0a2346"/><ns0:stop offset="1" stop-color="#020913"/></ns0:linearGradient>
+<ns0:radialGradient id="hdr_aura"><ns0:stop stop-color="#1164c9" stop-opacity=".42"/><ns0:stop offset="1" stop-color="#1164c9" stop-opacity="0"/></ns0:radialGradient>
+<ns0:linearGradient id="hdr_horizon" x1="0" y1="0" x2="0" y2="1"><ns0:stop stop-color="#3489fc" stop-opacity=".6"/><ns0:stop offset="1" stop-color="#2174cb" stop-opacity="0"/></ns0:linearGradient>
+<ns0:pattern id="hdr_grid" width="38" height="38" patternUnits="userSpaceOnUse"><ns0:path d="M38 0H0V38" fill="none" stroke="#317ad1" stroke-opacity=".13" stroke-width="1"/></ns0:pattern>
+<ns0:filter id="hdr_glow"><ns0:feGaussianBlur stdDeviation="6"/></ns0:filter>
+<ns0:clipPath id="hdr_planetclip"><ns0:circle cx="1004" cy="180" r="145"/></ns0:clipPath>
+</ns0:defs>
+    <ns0:rect x="0" y="0" width="1280" height="350" rx="16" fill="url(#hdr_bg)"/>
+    <ns0:rect x="0" y="0" width="1280" height="350" rx="16" fill="url(#hdr_grid)"/>
+    <ns0:ellipse cx="765" cy="330" rx="890" ry="170" fill="url(#hdr_aura)"/>
+    <ns0:path d="M 0 267 Q 425 205 700 280 T 1280 267" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.1"/>
+    <ns0:path d="M 0 274 Q 425 210 700 282 T 1280 274" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.10800000000000001"/>
+    <ns0:path d="M 0 282 Q 425 215 700 284 T 1280 282" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.116"/>
+    <ns0:path d="M 0 289 Q 425 220 700 286 T 1280 290" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.124"/>
+    <ns0:path d="M 0 297 Q 425 225 700 288 T 1280 297" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.132"/>
+    <ns0:path d="M 0 304 Q 425 230 700 290 T 1280 305" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.14"/>
+    <ns0:path d="M 0 312 Q 425 235 700 292 T 1280 313" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.14800000000000002"/>
+    <ns0:path d="M 0 319 Q 425 240 700 294 T 1280 320" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.156"/>
+    <ns0:path d="M 0 327 Q 425 245 700 296 T 1280 328" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.164"/>
+    <ns0:path d="M 0 334 Q 425 250 700 298 T 1280 336" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.17200000000000001"/>
+    <ns0:path d="M 0 342 Q 425 255 700 300 T 1280 344" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.18"/>
+    <ns0:path d="M 0 350 Q 425 260 700 302 T 1280 351" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.188"/>
+    <ns0:path d="M 0 357 Q 425 265 700 304 T 1280 359" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.196"/>
+    <ns0:path d="M 0 365 Q 425 270 700 306 T 1280 367" stroke="#247bf1" stroke-width="0.9" fill="none" opacity="0.20400000000000001"/>
+    <ns0:path d="M-30 296 C 280 270, 415 287, 645 309 S 1018 339, 1320 291" stroke="#49acff" stroke-width="2.6" fill="none" opacity="0.9"/>
+    <ns0:path d="M-30 296 C 280 270, 415 287, 645 309 S 1018 339, 1320 291" stroke="#4da3ff" stroke-width="14" fill="none" opacity="0.45" filter="url(#hdr_glow)"/>
+    <ns0:path d="M-25.0 284.0L0.0 301.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M-25.0 284.0L37.0 269.8" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M37.0 269.8L62.0 287.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M37.0 269.8L99.0 269.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M99.0 269.4L124.0 278.8" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M99.0 269.4L161.0 264.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M161.0 264.4L186.0 274.8" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M161.0 264.4L223.0 268.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M223.0 268.7L248.0 283.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M223.0 268.7L285.0 264.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M285.0 264.2L310.0 275.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M285.0 264.2L347.0 264.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M347.0 264.5L372.0 276.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M347.0 264.5L409.0 248.9" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M409.0 248.9L434.0 272.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M409.0 248.9L471.0 252.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M471.0 252.2L496.0 267.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M471.0 252.2L533.0 244.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M533.0 244.5L558.0 273.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M533.0 244.5L595.0 246.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M595.0 246.7L620.0 263.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M595.0 246.7L657.0 251.1" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M657.0 251.1L682.0 266.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M657.0 251.1L719.0 244.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M719.0 244.0L744.0 271.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M719.0 244.0L781.0 247.9" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M781.0 247.9L806.0 269.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M781.0 247.9L843.0 256.9" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M843.0 256.9L868.0 275.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M843.0 256.9L905.0 257.6" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M905.0 257.6L930.0 273.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M905.0 257.6L967.0 255.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M967.0 255.4L992.0 278.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M967.0 255.4L1029.0 264.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1029.0 264.7L1054.0 271.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1029.0 264.7L1091.0 272.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1091.0 272.0L1116.0 278.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1091.0 272.0L1153.0 263.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1153.0 263.2L1178.0 283.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1153.0 263.2L1215.0 280.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1215.0 280.3L1240.0 284.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1215.0 280.3L1277.0 283.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1277.0 283.0L1302.0 291.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1277.0 283.0L9.0 276.8" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M9.0 276.8L34.0 285.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M9.0 276.8L71.0 269.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M71.0 269.5L96.0 283.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M0.0 301.3L25.0 308.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M0.0 301.3L62.0 287.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M62.0 287.0L87.0 299.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M62.0 287.0L124.0 278.8" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M124.0 278.8L149.0 295.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M124.0 278.8L186.0 274.8" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M186.0 274.8L211.0 289.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M186.0 274.8L248.0 283.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M248.0 283.0L273.0 286.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M248.0 283.0L310.0 275.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M310.0 275.7L335.0 293.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M310.0 275.7L372.0 276.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M372.0 276.0L397.0 286.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M372.0 276.0L434.0 272.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M434.0 272.3L459.0 283.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M434.0 272.3L496.0 267.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M496.0 267.4L521.0 275.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M496.0 267.4L558.0 273.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M558.0 273.2L583.0 282.9" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M558.0 273.2L620.0 263.1" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M620.0 263.1L645.0 273.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M620.0 263.1L682.0 266.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M682.0 266.0L707.0 277.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M682.0 266.0L744.0 271.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M744.0 271.2L769.0 288.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M744.0 271.2L806.0 269.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M806.0 269.3L831.0 284.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M806.0 269.3L868.0 275.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M868.0 275.2L893.0 285.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M868.0 275.2L930.0 273.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M930.0 273.3L955.0 290.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M930.0 273.3L992.0 278.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M992.0 278.4L1017.0 296.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M992.0 278.4L1054.0 271.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1054.0 271.5L1079.0 298.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1054.0 271.5L1116.0 278.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1116.0 278.3L1141.0 294.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1116.0 278.3L1178.0 283.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1178.0 283.4L1203.0 295.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1178.0 283.4L1240.0 284.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1240.0 284.4L1265.0 304.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1240.0 284.4L1302.0 291.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1302.0 291.3L-3.0 304.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1302.0 291.3L34.0 285.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M34.0 285.2L59.0 299.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M34.0 285.2L96.0 283.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M96.0 283.7L121.0 306.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M25.0 308.4L50.0 324.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M25.0 308.4L87.0 299.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M87.0 299.7L112.0 311.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M87.0 299.7L149.0 295.6" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M149.0 295.6L174.0 312.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M149.0 295.6L211.0 289.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M211.0 289.0L236.0 304.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M211.0 289.0L273.0 286.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M273.0 286.3L298.0 309.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M273.0 286.3L335.0 293.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M335.0 293.7L360.0 298.9" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M335.0 293.7L397.0 286.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M397.0 286.4L422.0 293.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M397.0 286.4L459.0 283.6" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M459.0 283.6L484.0 291.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M459.0 283.6L521.0 275.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M521.0 275.0L546.0 294.8" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M521.0 275.0L583.0 282.9" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M583.0 282.9L608.0 289.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M583.0 282.9L645.0 273.6" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M645.0 273.6L670.0 294.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M645.0 273.6L707.0 277.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M707.0 277.5L732.0 300.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M707.0 277.5L769.0 288.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M769.0 288.3L794.0 293.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M769.0 288.3L831.0 284.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M831.0 284.4L856.0 292.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M831.0 284.4L893.0 285.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M893.0 285.3L918.0 307.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M893.0 285.3L955.0 290.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M955.0 290.2L980.0 302.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M955.0 290.2L1017.0 296.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1017.0 296.0L1042.0 299.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1017.0 296.0L1079.0 298.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1079.0 298.7L1104.0 302.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1079.0 298.7L1141.0 294.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1141.0 294.0L1166.0 307.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1141.0 294.0L1203.0 295.1" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1203.0 295.1L1228.0 320.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1203.0 295.1L1265.0 304.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1265.0 304.0L1290.0 327.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1265.0 304.0L-3.0 304.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M-3.0 304.5L22.0 319.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M-3.0 304.5L59.0 299.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M59.0 299.2L84.0 309.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M59.0 299.2L121.0 306.6" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M121.0 306.6L146.0 309.9" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M50.0 324.5L75.0 338.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M50.0 324.5L112.0 311.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M112.0 311.2L137.0 326.9" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M112.0 311.2L174.0 312.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M174.0 312.5L199.0 329.9" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M174.0 312.5L236.0 304.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M236.0 304.5L261.0 324.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M236.0 304.5L298.0 309.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M298.0 309.3L323.0 307.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M298.0 309.3L360.0 298.9" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M360.0 298.9L385.0 316.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M360.0 298.9L422.0 293.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M422.0 293.3L447.0 313.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M422.0 293.3L484.0 291.0" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M484.0 291.0L509.0 309.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M484.0 291.0L546.0 294.8" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M546.0 294.8L571.0 303.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M546.0 294.8L608.0 289.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M608.0 289.3L633.0 309.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M608.0 289.3L670.0 294.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M670.0 294.4L695.0 301.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M670.0 294.4L732.0 300.1" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M732.0 300.1L757.0 307.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M732.0 300.1L794.0 293.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M794.0 293.4L819.0 309.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M794.0 293.4L856.0 292.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M856.0 292.5L881.0 319.2" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M856.0 292.5L918.0 307.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M918.0 307.5L943.0 320.7" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M918.0 307.5L980.0 302.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M980.0 302.7L1005.0 314.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M980.0 302.7L1042.0 299.5" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1042.0 299.5L1067.0 321.5" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1042.0 299.5L1104.0 302.6" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1104.0 302.6L1129.0 320.4" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1104.0 302.6L1166.0 307.7" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1166.0 307.7L1191.0 336.3" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1166.0 307.7L1228.0 320.3" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1228.0 320.3L1253.0 340.0" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1228.0 320.3L1290.0 327.4" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M1290.0 327.4L-15.0 333.8" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M1290.0 327.4L22.0 319.2" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M22.0 319.2L47.0 334.9" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M22.0 319.2L84.0 309.1" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M84.0 309.1L109.0 330.1" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:path d="M84.0 309.1L146.0 309.9" stroke="#2d83ec" stroke-width="0.7" fill="none" opacity="0.25"/>
+    <ns0:path d="M146.0 309.9L171.0 318.6" stroke="#2d83ec" stroke-width="0.8" fill="none" opacity="0.22"/>
+    <ns0:circle cx="-25" cy="284.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="161" cy="264.4" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="347" cy="264.5" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="533" cy="244.5" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="719" cy="244.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="905" cy="257.6" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1091" cy="272.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1277" cy="283.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="0" cy="301.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="186" cy="274.8" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="372" cy="276.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="558" cy="273.2" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="744" cy="271.2" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="930" cy="273.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1116" cy="278.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1302" cy="291.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="25" cy="308.4" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="211" cy="289.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="397" cy="286.4" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="583" cy="282.9" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="769" cy="288.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="955" cy="290.2" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1141" cy="294.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="-3" cy="304.5" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="50" cy="324.5" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="236" cy="304.5" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="422" cy="293.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="608" cy="289.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="794" cy="293.4" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="980" cy="302.7" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1166" cy="307.7" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="22" cy="319.2" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="75" cy="338.6" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="261" cy="324.4" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="447" cy="313.1" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="633" cy="309.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="819" cy="309.0" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1005" cy="314.1" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1191" cy="336.3" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="47" cy="334.9" r="1.6" fill="#68c7ff" opacity="0.65"/>
+    <ns0:circle cx="1004" cy="180" r="145" fill="#041a38" stroke="#236ac0" stroke-width="1.5" opacity="0.6"/>
+    <ns0:g clip-path="url(#hdr_planetclip)" opacity=".83">
+      <ns0:path d="M880 35 Q 1080 180 880 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M911 35 Q 1061 180 911 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M942 35 Q 1042 180 942 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M973 35 Q 1023 180 973 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M1004 35 Q 1004 180 1004 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M1035 35 Q 985 180 1035 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M1066 35 Q 966 180 1066 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M1097 35 Q 947 180 1097 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:path d="M1128 35 Q 928 180 1128 325" stroke="#228deb" stroke-width="1.2" fill="none" opacity="0.64"/>
+      <ns0:ellipse cx="1004" cy="78" rx="102.3" ry="28" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:ellipse cx="1004" cy="112" rx="127.2" ry="26" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:ellipse cx="1004" cy="146" rx="140.0" ry="24" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:ellipse cx="1004" cy="180" rx="144.0" ry="22" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:ellipse cx="1004" cy="214" rx="140.0" ry="24" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:ellipse cx="1004" cy="248" rx="127.2" ry="26" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:ellipse cx="1004" cy="282" rx="102.3" ry="28" fill="none" stroke="#278eea" stroke-opacity=".5" stroke-width="1.1"/>
+      <ns0:circle cx="1079.3" cy="188.3" r="1.7" fill="#80c5ff" opacity="0.8002810315813783"/>
+      <ns0:circle cx="1033.3" cy="174.4" r="1" fill="#80c5ff" opacity="0.8067501559214164"/>
+      <ns0:circle cx="1111.9" cy="268.7" r="1.3" fill="#80c5ff" opacity="0.38606590930621587"/>
+      <ns0:circle cx="932.7" cy="196.0" r="1" fill="#80c5ff" opacity="0.29224860576140604"/>
+      <ns0:circle cx="1001.6" cy="59.0" r="1.7" fill="#80c5ff" opacity="0.7071590018772624"/>
+      <ns0:circle cx="901.1" cy="170.7" r="1.7" fill="#80c5ff" opacity="0.34072744497421786"/>
+      <ns0:circle cx="1013.3" cy="206.8" r="1" fill="#80c5ff" opacity="0.8066372307313279"/>
+      <ns0:circle cx="1077.2" cy="229.7" r="1.7" fill="#80c5ff" opacity="0.43014693769354595"/>
+      <ns0:circle cx="988.1" cy="182.3" r="1" fill="#80c5ff" opacity="0.39122242433626486"/>
+      <ns0:circle cx="1020.7" cy="201.8" r="1" fill="#80c5ff" opacity="0.28330578246550986"/>
+      <ns0:circle cx="1042.3" cy="103.0" r="1" fill="#80c5ff" opacity="0.7643775941547853"/>
+      <ns0:circle cx="884.9" cy="105.5" r="1.7" fill="#80c5ff" opacity="0.5361028444817993"/>
+      <ns0:circle cx="1016.5" cy="238.9" r="1.7" fill="#80c5ff" opacity="0.5914891063297489"/>
+      <ns0:circle cx="933.3" cy="170.1" r="1.3" fill="#80c5ff" opacity="0.3561500477607454"/>
+      <ns0:circle cx="892.2" cy="158.5" r="1.3" fill="#80c5ff" opacity="0.4907723883903402"/>
+      <ns0:circle cx="1048.6" cy="217.7" r="1" fill="#80c5ff" opacity="0.48559898208238395"/>
+      <ns0:circle cx="960.3" cy="277.0" r="1" fill="#80c5ff" opacity="0.3568699440064089"/>
+      <ns0:circle cx="1015.7" cy="78.6" r="1" fill="#80c5ff" opacity="0.4099125382468337"/>
+      <ns0:circle cx="935.2" cy="293.9" r="1.3" fill="#80c5ff" opacity="0.7328935692863385"/>
+      <ns0:circle cx="1048.3" cy="188.7" r="1" fill="#80c5ff" opacity="0.8310877169436982"/>
+      <ns0:circle cx="911.7" cy="173.6" r="1" fill="#80c5ff" opacity="0.7674367403584315"/>
+      <ns0:circle cx="865.6" cy="147.4" r="1.3" fill="#80c5ff" opacity="0.41400202965762134"/>
+      <ns0:circle cx="1060.7" cy="240.9" r="1.7" fill="#80c5ff" opacity="0.6437415002899546"/>
+      <ns0:circle cx="1001.8" cy="92.2" r="1" fill="#80c5ff" opacity="0.8309127126311868"/>
+      <ns0:circle cx="1027.7" cy="189.1" r="1.7" fill="#80c5ff" opacity="0.43129893395953484"/>
+      <ns0:circle cx="879.1" cy="171.1" r="1.7" fill="#80c5ff" opacity="0.3360339640430848"/>
+      <ns0:circle cx="917.2" cy="203.6" r="1.7" fill="#80c5ff" opacity="0.7657097132017789"/>
+      <ns0:circle cx="978.5" cy="298.9" r="1.7" fill="#80c5ff" opacity="0.39019136215106115"/>
+      <ns0:circle cx="1032.1" cy="210.3" r="1.3" fill="#80c5ff" opacity="0.6409976303282388"/>
+      <ns0:circle cx="1023.8" cy="127.0" r="1.3" fill="#80c5ff" opacity="0.3645981116483572"/>
+      <ns0:circle cx="1066.2" cy="105.6" r="1.3" fill="#80c5ff" opacity="0.3198357520977484"/>
+      <ns0:circle cx="1046.4" cy="165.7" r="1" fill="#80c5ff" opacity="0.2456824286993903"/>
+      <ns0:circle cx="1039.5" cy="194.8" r="1" fill="#80c5ff" opacity="0.2846890398707761"/>
+      <ns0:circle cx="924.9" cy="112.9" r="1.3" fill="#80c5ff" opacity="0.7773271459487281"/>
+      <ns0:circle cx="1112.1" cy="141.6" r="1" fill="#80c5ff" opacity="0.507292589534703"/>
+      <ns0:circle cx="1017.6" cy="123.2" r="1.7" fill="#80c5ff" opacity="0.5626538224873847"/>
+      <ns0:circle cx="1052.7" cy="192.5" r="1.7" fill="#80c5ff" opacity="0.303187766170109"/>
+      <ns0:circle cx="1111.8" cy="112.7" r="1" fill="#80c5ff" opacity="0.6928741772284092"/>
+      <ns0:circle cx="908.7" cy="117.5" r="1" fill="#80c5ff" opacity="0.6777434341546666"/>
+      <ns0:circle cx="922.2" cy="214.4" r="1.3" fill="#80c5ff" opacity="0.5482995254397722"/>
+      <ns0:circle cx="935.6" cy="289.7" r="1" fill="#80c5ff" opacity="0.2963020653047674"/>
+      <ns0:circle cx="984.0" cy="116.1" r="1" fill="#80c5ff" opacity="0.44346948854910373"/>
+      <ns0:circle cx="910.4" cy="161.5" r="1.7" fill="#80c5ff" opacity="0.5008890205782144"/>
+      <ns0:circle cx="1018.3" cy="269.5" r="1.7" fill="#80c5ff" opacity="0.5770403090144485"/>
+      <ns0:circle cx="985.8" cy="51.5" r="1.3" fill="#80c5ff" opacity="0.7883787081329798"/>
+      <ns0:circle cx="1088.7" cy="276.7" r="1.3" fill="#80c5ff" opacity="0.36814668838724995"/>
+      <ns0:circle cx="935.1" cy="68.3" r="1.7" fill="#80c5ff" opacity="0.7793221678851154"/>
+      <ns0:circle cx="979.2" cy="210.7" r="1" fill="#80c5ff" opacity="0.8047159317674295"/>
+      <ns0:circle cx="931.5" cy="84.7" r="1" fill="#80c5ff" opacity="0.7776638848446279"/>
+      <ns0:circle cx="958.3" cy="296.0" r="1.7" fill="#80c5ff" opacity="0.7670790573089205"/>
+      <ns0:circle cx="1092.8" cy="113.4" r="1.7" fill="#80c5ff" opacity="0.30593833210580385"/>
+      <ns0:circle cx="1110.1" cy="276.1" r="1" fill="#80c5ff" opacity="0.36173942631570866"/>
+      <ns0:circle cx="1123.1" cy="136.2" r="1" fill="#80c5ff" opacity="0.3759833637955435"/>
+      <ns0:circle cx="1050.5" cy="149.6" r="1.3" fill="#80c5ff" opacity="0.7672552946384746"/>
+      <ns0:circle cx="1045.3" cy="149.9" r="1.7" fill="#80c5ff" opacity="0.4420014196107883"/>
+      <ns0:circle cx="938.4" cy="199.7" r="1.3" fill="#80c5ff" opacity="0.26333689038549024"/>
+      <ns0:circle cx="1032.6" cy="135.1" r="1.3" fill="#80c5ff" opacity="0.5062002691610709"/>
+      <ns0:circle cx="1117.8" cy="92.3" r="1" fill="#80c5ff" opacity="0.6723590231388441"/>
+      <ns0:circle cx="1016.3" cy="237.8" r="1.7" fill="#80c5ff" opacity="0.6895929930290832"/>
+      <ns0:circle cx="920.4" cy="158.6" r="1.7" fill="#80c5ff" opacity="0.8016702222930046"/>
+      <ns0:circle cx="1040.1" cy="222.4" r="1" fill="#80c5ff" opacity="0.6790501004385097"/>
+      <ns0:circle cx="949.4" cy="125.1" r="1.3" fill="#80c5ff" opacity="0.4389715719630139"/>
+      <ns0:circle cx="1060.9" cy="192.5" r="1" fill="#80c5ff" opacity="0.49647226360147406"/>
+      <ns0:circle cx="1129.2" cy="226.3" r="1" fill="#80c5ff" opacity="0.6154640987303421"/>
+      <ns0:circle cx="949.6" cy="190.7" r="1" fill="#80c5ff" opacity="0.4253637190536958"/>
+      <ns0:circle cx="924.1" cy="256.1" r="1.7" fill="#80c5ff" opacity="0.6393704304588737"/>
+      <ns0:circle cx="995.7" cy="161.6" r="1" fill="#80c5ff" opacity="0.551816138093498"/>
+      <ns0:circle cx="1071.8" cy="221.2" r="1.3" fill="#80c5ff" opacity="0.554425726048282"/>
+      <ns0:circle cx="1042.9" cy="132.2" r="1" fill="#80c5ff" opacity="0.650405359039872"/>
+      <ns0:circle cx="928.1" cy="94.8" r="1" fill="#80c5ff" opacity="0.26819036803658264"/>
+      <ns0:circle cx="1141.5" cy="208.1" r="1" fill="#80c5ff" opacity="0.5178038627118544"/>
+      <ns0:circle cx="1114.0" cy="198.3" r="1.7" fill="#80c5ff" opacity="0.6647760927992079"/>
+      <ns0:circle cx="1003.9" cy="107.1" r="1.7" fill="#80c5ff" opacity="0.659449671979117"/>
+      <ns0:circle cx="1113.8" cy="254.1" r="1" fill="#80c5ff" opacity="0.3472908758409843"/>
+      <ns0:circle cx="1134.2" cy="182.4" r="1" fill="#80c5ff" opacity="0.5800175343603711"/>
+      <ns0:circle cx="902.5" cy="167.8" r="1.7" fill="#80c5ff" opacity="0.8426143963705333"/>
+      <ns0:circle cx="1032.3" cy="301.3" r="1.3" fill="#80c5ff" opacity="0.6137179168846754"/>
+      <ns0:circle cx="1067.1" cy="178.8" r="1.7" fill="#80c5ff" opacity="0.5120073033667872"/>
+      <ns0:circle cx="909.7" cy="276.9" r="1.3" fill="#80c5ff" opacity="0.3981068445636618"/>
+      <ns0:circle cx="934.5" cy="215.4" r="1.7" fill="#80c5ff" opacity="0.5356041804128627"/>
+      <ns0:circle cx="932.2" cy="161.0" r="1.7" fill="#80c5ff" opacity="0.414294172026523"/>
+      <ns0:circle cx="941.4" cy="127.9" r="1.7" fill="#80c5ff" opacity="0.28915237117117776"/>
+      <ns0:circle cx="907.4" cy="145.3" r="1" fill="#80c5ff" opacity="0.6709156764336768"/>
+      <ns0:circle cx="883.0" cy="152.1" r="1.7" fill="#80c5ff" opacity="0.5242138250442019"/>
+      <ns0:circle cx="974.4" cy="251.7" r="1.7" fill="#80c5ff" opacity="0.25191449361001356"/>
+      <ns0:circle cx="1112.5" cy="198.3" r="1.3" fill="#80c5ff" opacity="0.24359661098623578"/>
+      <ns0:circle cx="963.8" cy="247.2" r="1.3" fill="#80c5ff" opacity="0.5683145462422412"/>
+      <ns0:circle cx="1071.4" cy="260.0" r="1" fill="#80c5ff" opacity="0.5378199813056528"/>
+      <ns0:circle cx="941.7" cy="173.6" r="1.3" fill="#80c5ff" opacity="0.4450390216560133"/>
+      <ns0:circle cx="1055.8" cy="151.2" r="1" fill="#80c5ff" opacity="0.7527084544681607"/>
+      <ns0:circle cx="1015.1" cy="289.4" r="1.7" fill="#80c5ff" opacity="0.5842791096451122"/>
+      <ns0:circle cx="872.6" cy="216.8" r="1" fill="#80c5ff" opacity="0.7687793269130293"/>
+      <ns0:circle cx="916.1" cy="111.5" r="1.3" fill="#80c5ff" opacity="0.3691127733690037"/>
+      <ns0:circle cx="956.8" cy="249.3" r="1.3" fill="#80c5ff" opacity="0.40973653553967165"/>
+      <ns0:circle cx="1132.3" cy="155.9" r="1" fill="#80c5ff" opacity="0.5268871700899587"/>
+      <ns0:circle cx="1075.5" cy="54.3" r="1.3" fill="#80c5ff" opacity="0.3767755210890464"/>
+      <ns0:circle cx="934.5" cy="270.8" r="1.7" fill="#80c5ff" opacity="0.3329532309287221"/>
+      <ns0:circle cx="900.5" cy="224.1" r="1.7" fill="#80c5ff" opacity="0.8181317835521575"/>
+      <ns0:circle cx="995.7" cy="110.5" r="1.3" fill="#80c5ff" opacity="0.3423513774543594"/>
+      <ns0:circle cx="1035.6" cy="245.7" r="1" fill="#80c5ff" opacity="0.7144530505670139"/>
+      <ns0:circle cx="911.0" cy="125.5" r="1.7" fill="#80c5ff" opacity="0.2556638395534543"/>
+      <ns0:circle cx="952.7" cy="226.3" r="1.3" fill="#80c5ff" opacity="0.4819592093251427"/>
+      <ns0:circle cx="1065.9" cy="60.9" r="1.7" fill="#80c5ff" opacity="0.7466486966059942"/>
+      <ns0:circle cx="933.2" cy="231.7" r="1.3" fill="#80c5ff" opacity="0.7586788758441657"/>
+      <ns0:circle cx="1033.7" cy="73.3" r="1.7" fill="#80c5ff" opacity="0.717407561280222"/>
+      <ns0:circle cx="962.6" cy="157.8" r="1.3" fill="#80c5ff" opacity="0.2820636092769807"/>
+      <ns0:circle cx="1047.0" cy="43.5" r="1.3" fill="#80c5ff" opacity="0.7416218600349355"/>
+      <ns0:circle cx="1043.6" cy="267.9" r="1.7" fill="#80c5ff" opacity="0.3333246009472545"/>
+      <ns0:circle cx="914.5" cy="183.5" r="1.7" fill="#80c5ff" opacity="0.40475026179631446"/>
+      <ns0:circle cx="1092.1" cy="188.0" r="1.3" fill="#80c5ff" opacity="0.5235730006970498"/>
+      <ns0:circle cx="1097.0" cy="202.9" r="1.3" fill="#80c5ff" opacity="0.7595450276117924"/>
+      <ns0:circle cx="1112.7" cy="107.1" r="1.3" fill="#80c5ff" opacity="0.5876082832537766"/>
+      <ns0:circle cx="1052.8" cy="132.5" r="1.3" fill="#80c5ff" opacity="0.7590812301506"/>
+      <ns0:circle cx="916.1" cy="98.3" r="1.3" fill="#80c5ff" opacity="0.44760669433021305"/>
+      <ns0:circle cx="1112.4" cy="232.8" r="1.3" fill="#80c5ff" opacity="0.5790325270309461"/>
+      <ns0:circle cx="1010.2" cy="92.5" r="1" fill="#80c5ff" opacity="0.6792455451035585"/>
+      <ns0:circle cx="1002.3" cy="248.5" r="1.7" fill="#80c5ff" opacity="0.5304167975783405"/>
+      <ns0:circle cx="1065.0" cy="163.2" r="1" fill="#80c5ff" opacity="0.2967625438383497"/>
+      <ns0:circle cx="927.3" cy="230.2" r="1.3" fill="#80c5ff" opacity="0.6450156131740578"/>
+      <ns0:circle cx="968.7" cy="192.2" r="1.3" fill="#80c5ff" opacity="0.49955732575018097"/>
+      <ns0:circle cx="1074.6" cy="131.0" r="1.7" fill="#80c5ff" opacity="0.5167846103404389"/>
+      <ns0:circle cx="951.2" cy="103.4" r="1.7" fill="#80c5ff" opacity="0.3574764190054256"/>
+      <ns0:circle cx="898.6" cy="187.4" r="1.7" fill="#80c5ff" opacity="0.3529414038869738"/>
+      <ns0:circle cx="925.8" cy="173.2" r="1.7" fill="#80c5ff" opacity="0.5996480126360824"/>
+      <ns0:circle cx="1078.6" cy="204.1" r="1" fill="#80c5ff" opacity="0.7479033016295114"/>
+      <ns0:circle cx="948.2" cy="139.2" r="1.3" fill="#80c5ff" opacity="0.24863050402619893"/>
+      <ns0:circle cx="1015.1" cy="115.4" r="1" fill="#80c5ff" opacity="0.577548969747151"/>
+      <ns0:circle cx="1061.0" cy="74.7" r="1.3" fill="#80c5ff" opacity="0.302578464540534"/>
+      <ns0:circle cx="999.5" cy="133.7" r="1" fill="#80c5ff" opacity="0.3940118182007133"/>
+      <ns0:circle cx="883.4" cy="175.2" r="1.7" fill="#80c5ff" opacity="0.6239618812407189"/>
+      <ns0:circle cx="1023.2" cy="123.6" r="1" fill="#80c5ff" opacity="0.31225545294899154"/>
+      <ns0:circle cx="1079.8" cy="206.7" r="1.7" fill="#80c5ff" opacity="0.3776691536096711"/>
+      <ns0:circle cx="1011.8" cy="163.9" r="1.3" fill="#80c5ff" opacity="0.4213854108356063"/>
+    </ns0:g>
+    <ns0:circle cx="1004" cy="180" r="145" fill="none" stroke="#368bed" stroke-width="1.5" opacity="0.7"/>
+    <ns0:rect x="53" y="46" width="208" height="34" rx="17" fill="#103d6c" stroke="#246bad" stroke-width="1"/>
+    <ns0:circle cx="72" cy="63" r="3.5" fill="#45dfff" opacity="1"/>
+    <ns0:text x="88" y="69" fill="#b8dcff" font-family="'DejaVu Sans Mono',monospace" font-size="14" font-weight="700" letter-spacing="2.1">SYSTEMS / CODE</ns0:text>
+    <ns0:text x="52" y="203" fill="#f2f7ff" font-family="'DejaVu Sans Mono',monospace" font-size="99" font-weight="800" letter-spacing="4.5">COXF0RD</ns0:text>
+    <ns0:path d="M54 218H555" stroke="#40b8ff" stroke-width="4" fill="none" opacity="1"/>
+    <ns0:text x="57" y="250" fill="#a6cfff" font-family="'DejaVu Sans Mono',monospace" font-size="20" font-weight="500" letter-spacing="2.5">LINUX  /  NETWORKING  /  AUTOMATION</ns0:text>
+    <ns0:text x="1159" y="84" fill="#9cd2ff" font-family="'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" letter-spacing="1.4" text-anchor="end">INFRASTRUCTURE</ns0:text>
+    <ns0:text x="1159" y="106" fill="#9cd2ff" font-family="'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" letter-spacing="1.4" text-anchor="end">DEVELOPMENT</ns0:text>
+    <ns0:text x="1159" y="128" fill="#9cd2ff" font-family="'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" letter-spacing="1.4" text-anchor="end">DEVOPS</ns0:text>
+    <ns0:text x="1159" y="150" fill="#9cd2ff" font-family="'DejaVu Sans Mono',monospace" font-size="13" font-weight="400" letter-spacing="1.4" text-anchor="end">NETWORKING</ns0:text>
+    <ns0:rect x="30" y="16" width="1220" height="320" rx="14" fill="none" stroke="#1a5699" stroke-width="1.0"/>
+  </ns0:svg>
+  <ns0:rect x="48" y="409" width="58" height="50" rx="11" fill="#0d2c4d" stroke="#279bf6" stroke-width="1.7"/>
+  <ns0:text x="59" y="444" fill="#74c7ff" font-size="27" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">01</ns0:text>
+  <ns0:text x="126" y="446" fill="#e6f3ff" font-size="33" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">About Me</ns0:text>
+  <ns0:text x="1219" y="442" fill="#78b9ed" font-size="16" font-weight="normal" font-family="'DejaVu Sans Mono', monospace" letter-spacing="1" text-anchor="end">LINUX  /  NETWORKS  /  DEVELOPMENT</ns0:text>
+  <ns0:line x1="48" y1="467" x2="1232" y2="467" stroke="#215786" stroke-width="1.3" stroke-opacity=".7"/>
+  <ns0:text x="64" y="517" fill="#c9daef" font-size="25" font-weight="normal" font-family="'DejaVu Sans', Arial, sans-serif">I build tools for Linux systems, networking and infrastructure automation.</ns0:text>
+  <ns0:text x="64" y="552" fill="#c9daef" font-size="25" font-weight="normal" font-family="'DejaVu Sans', Arial, sans-serif">My interests include backend development, traffic routing and DevOps practices.</ns0:text>
+  <ns0:text x="64" y="587" fill="#c9daef" font-size="25" font-weight="normal" font-family="'DejaVu Sans', Arial, sans-serif">I enjoy engineering work, from system architecture to deployment and diagnostics.</ns0:text>
+  <ns0:svg x="48" y="631" width="1184" height="266" viewBox="0 0 1280 287" preserveAspectRatio="xMidYMid meet">
+    <ns0:defs/>
+    <ns0:rect x="1" y="1" width="1278" height="285" rx="14" fill="#07101d" stroke="#2b5d91" stroke-width="2"/>
+    <ns0:rect x="2" y="2" width="1276" height="56" rx="14" fill="#152943"/>
+    <ns0:rect x="2" y="47" width="1276" height="14" rx="0" fill="#152943"/>
+    <ns0:path d="M2 60H1278" stroke="#29517d" stroke-width="1.1" fill="none" opacity="1"/>
+    <ns0:circle cx="32" cy="30" r="8" fill="#ff5f56" opacity="1"/>
+    <ns0:circle cx="56" cy="30" r="8" fill="#ffbd2e" opacity="1"/>
+    <ns0:circle cx="80" cy="30" r="8" fill="#29c841" opacity="1"/>
+    <ns0:text x="638" y="36" fill="#9fbad4" font-family="'DejaVu Sans Mono',monospace" font-size="17" font-weight="400" letter-spacing="0" text-anchor="middle">coxf0rd@linux — bash</ns0:text>
+    <ns0:text x="32" y="103" fill="#36d7bd" font-family="'DejaVu Sans Mono',monospace" font-size="21" font-weight="700" letter-spacing="0">coxf0rd@linux:~$</ns0:text>
+    <ns0:text x="283" y="103" fill="#eaf4ff" font-family="'DejaVu Sans Mono',monospace" font-size="21" font-weight="400" letter-spacing="0"> whoami</ns0:text>
+    <ns0:text x="32" y="132" fill="#90c4f1" font-family="'DejaVu Sans Mono',monospace" font-size="20" font-weight="400" letter-spacing="0">Coxf0rd — Infrastructure &amp; Software Development</ns0:text>
+    <ns0:text x="32" y="169" fill="#36d7bd" font-family="'DejaVu Sans Mono',monospace" font-size="21" font-weight="700" letter-spacing="0">coxf0rd@linux:~$</ns0:text>
+    <ns0:text x="283" y="169" fill="#eaf4ff" font-family="'DejaVu Sans Mono',monospace" font-size="21" font-weight="400" letter-spacing="0"> cat focus.txt</ns0:text>
+    <ns0:text x="32" y="198" fill="#90c4f1" font-family="'DejaVu Sans Mono',monospace" font-size="20" font-weight="400" letter-spacing="0">Linux / Networking / Automation / DevOps</ns0:text>
+    <ns0:text x="32" y="235" fill="#36d7bd" font-family="'DejaVu Sans Mono',monospace" font-size="21" font-weight="700" letter-spacing="0">coxf0rd@linux:~$</ns0:text>
+    <ns0:text x="283" y="235" fill="#eaf4ff" font-family="'DejaVu Sans Mono',monospace" font-size="21" font-weight="400" letter-spacing="0"> ls ~/projects</ns0:text>
+    <ns0:text x="32" y="264" fill="#53b8ff" font-family="'DejaVu Sans Mono',monospace" font-size="20" font-weight="400" letter-spacing="0">fwrouter/   petrinet/</ns0:text>
+    <ns0:rect x="312" y="248" width="12" height="23" rx="2" fill="#40dcfa"/>
+  </ns0:svg>
+  <ns0:rect x="48" y="943" width="58" height="50" rx="11" fill="#0d2c4d" stroke="#279bf6" stroke-width="1.7"/>
+  <ns0:text x="59" y="978" fill="#74c7ff" font-size="27" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">02</ns0:text>
+  <ns0:text x="126" y="980" fill="#e6f3ff" font-size="33" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">Technologies &amp; Tools</ns0:text>
+  <ns0:text x="1219" y="976" fill="#78b9ed" font-size="16" font-weight="normal" font-family="'DejaVu Sans Mono', monospace" letter-spacing="1" text-anchor="end">BUILD  /  AUTOMATE  /  DEPLOY</ns0:text>
+  <ns0:line x1="48" y1="1001" x2="1232" y2="1001" stroke="#215786" stroke-width="1.3" stroke-opacity=".7"/>
+  <ns0:svg x="48" y="1027" width="1184" height="156" viewBox="0 0 1280 168" preserveAspectRatio="xMidYMid meet">
+    <ns0:defs/>
+    <ns0:rect x="2.0" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M20.0 12H118.7" stroke="#f2c94c" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:ellipse cx="69.33333333333333" cy="67" rx="22" ry="33" fill="#182333" stroke="#f2f5fb" stroke-width="3"/>
+    <ns0:ellipse cx="69.33333333333333" cy="78" rx="12" ry="17" fill="#e8f0fb"/>
+    <ns0:circle cx="60.33333333333333" cy="51" r="3" fill="#ffffff" opacity="1"/>
+    <ns0:circle cx="78.33333333333333" cy="51" r="3" fill="#ffffff" opacity="1"/>
+    <ns0:path d="M64.33333333333333 58L69.33333333333333 64L74.33333333333333 58Z" stroke="#f2c94c" stroke-width="1.6" fill="#f2c94c" opacity="1"/>
+    <ns0:text x="69.3" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">Linux</ns0:text>
+    <ns0:rect x="144.7" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M162.7 12H261.3" stroke="#3ba9ff" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:rect x="181.0" y="57" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:rect x="203.0" y="57" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:rect x="225.0" y="57" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:rect x="181.0" y="35" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:rect x="203.0" y="35" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:rect x="225.0" y="35" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:rect x="203.0" y="13" width="19" height="19" rx="3" fill="#2b9cff"/>
+    <ns0:path d="M173.0 77Q212.0 105 254.0 70" stroke="#3ba9ff" stroke-width="4" fill="none" opacity="1"/>
+    <ns0:text x="212.0" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">Docker</ns0:text>
+    <ns0:rect x="287.3" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M305.3 12H404.0" stroke="#4389ff" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:path d="M326.66666666666663 59V41Q326.66666666666663 29 338.66666666666663 29H366.66666666666663Q379.66666666666663 29 379.66666666666663 44V57H345.66666666666663Q332.66666666666663 57 332.66666666666663 70" stroke="#3575d7" stroke-width="12" fill="none" opacity="1"/>
+    <ns0:path d="M382.66666666666663 65V83Q382.66666666666663 96 370.66666666666663 96H342.66666666666663Q329.66666666666663 96 329.66666666666663 82V70H362.66666666666663Q376.66666666666663 70 376.66666666666663 57" stroke="#f4ce4b" stroke-width="12" fill="none" opacity="1"/>
+    <ns0:circle cx="344.66666666666663" cy="37" r="3" fill="white" opacity="1"/>
+    <ns0:circle cx="364.66666666666663" cy="87" r="3" fill="white" opacity="1"/>
+    <ns0:text x="354.7" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">Python</ns0:text>
+    <ns0:rect x="430.0" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M448.0 12H546.7" stroke="#e7eef8" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:rect x="521.3333333333333" y="59.0" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="517.5820446392976" y="73.0" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="507.3333333333333" y="83.24871130596428" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="493.3333333333333" y="87.0" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="479.3333333333333" y="83.24871130596429" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="469.08462202736905" y="73.0" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="465.3333333333333" y="59.0" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="469.08462202736905" y="45.00000000000001" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="479.3333333333333" y="34.75128869403572" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="493.3333333333333" y="31.0" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="507.3333333333333" y="34.75128869403572" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:rect x="517.5820446392976" y="44.999999999999986" width="8" height="8" rx="1" fill="#e7eef8"/>
+    <ns0:circle cx="497.3333333333333" cy="63" r="25" fill="#122b42" stroke="#e7eef8" stroke-width="3" opacity="1"/>
+    <ns0:text x="497.3333333333333" y="75" fill="#e7eef8" font-family="'DejaVu Sans Mono',monospace" font-size="37" font-weight="800" letter-spacing="0" text-anchor="middle">R</ns0:text>
+    <ns0:text x="497.3" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">Rust</ns0:text>
+    <ns0:rect x="572.7" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M590.7 12H689.3" stroke="#46caaf" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:rect x="607.0" y="36" width="66" height="55" rx="9" fill="#133c39" stroke="#46caaf" stroke-width="2"/>
+    <ns0:text x="615.0" y="76" fill="#46caaf" font-family="'DejaVu Sans Mono',monospace" font-size="37" font-weight="700" letter-spacing="0">&gt;_</ns0:text>
+    <ns0:text x="640.0" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">Bash</ns0:text>
+    <ns0:rect x="715.3" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M733.3 12H832.0" stroke="#ff735d" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:rect x="758.6666666666666" y="39" width="48" height="48" rx="5" transform="rotate(45 782.6666666666666 63)" fill="#ff735d"/>
+    <ns0:path d="M766.6666666666666 52L781.6666666666666 67V87M781.6666666666666 67H803.6666666666666" stroke="#142038" stroke-width="4" fill="none" opacity="1"/>
+    <ns0:circle cx="766.6666666666666" cy="52" r="4" fill="#142038" opacity="1"/>
+    <ns0:circle cx="781.6666666666666" cy="67" r="4" fill="#142038" opacity="1"/>
+    <ns0:circle cx="781.6666666666666" cy="87" r="4" fill="#142038" opacity="1"/>
+    <ns0:circle cx="803.6666666666666" cy="67" r="4" fill="#142038" opacity="1"/>
+    <ns0:text x="782.7" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">Git</ns0:text>
+    <ns0:rect x="858.0" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M876.0 12H974.7" stroke="#19c5ac" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:circle cx="925.3333333333334" cy="63" r="29" fill="#1a746e" opacity="1"/>
+    <ns0:path d="M934.3333333333334 32L913.3333333333334 66H926.3333333333334L915.3333333333334 97L943.3333333333334 54H930.3333333333334Z" stroke="#e1fff6" stroke-width="0" fill="#e1fff6" opacity="1"/>
+    <ns0:text x="925.3" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">FastAPI</ns0:text>
+    <ns0:rect x="1000.7" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M1018.7 12H1117.3" stroke="#70b8ff" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:ellipse cx="1068.0" cy="38" rx="26" ry="10" fill="#66b1e5"/>
+    <ns0:rect x="1042.0" y="38" width="52" height="48" rx="0" fill="#3b7dab"/>
+    <ns0:ellipse cx="1068.0" cy="86" rx="26" ry="10" fill="#2f679a"/>
+    <ns0:ellipse cx="1068.0" cy="38" rx="26" ry="10" fill="none" stroke="#a9dfff" stroke-width="2"/>
+    <ns0:path d="M1042.0 63Q1068.0 81 1094.0 63" stroke="#b4ddfa" stroke-width="2" fill="none" opacity="1"/>
+    <ns0:text x="1068.0" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">SQLite</ns0:text>
+    <ns0:rect x="1143.3" y="1" width="134.7" height="163" rx="12" fill="#0b1d33" stroke="#1e466f" stroke-width="1.5"/>
+    <ns0:path d="M1161.3 12H1260.0" stroke="#8da4ff" stroke-width="1.8" fill="none" opacity="0.42"/>
+    <ns0:path d="M1210.6666666666665 29L1239.6666666666665 46V80L1210.6666666666665 97L1181.6666666666665 80V46Z" stroke="#8da4ff" stroke-width="2" fill="#11263d" opacity="1"/>
+    <ns0:text x="1210.6666666666665" y="72" fill="#8da4ff" font-family="'DejaVu Sans Mono',monospace" font-size="22" font-weight="700" letter-spacing="0" text-anchor="middle">nft</ns0:text>
+    <ns0:text x="1210.7" y="142" fill="#eaf2fc" font-family="'DejaVu Sans',Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="0" text-anchor="middle">nftables</ns0:text>
+  </ns0:svg>
+  <ns0:rect x="48" y="1200" width="1184" height="150" rx="14" fill="#091a2d" stroke="#1d527b" stroke-width="1.1"/>
+  <ns0:text x="77" y="1243" fill="#66b9fa" font-size="17" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">INFRASTRUCTURE</ns0:text>
+  <ns0:text x="320" y="1243" fill="#c9daef" font-size="23" font-weight="normal" font-family="'DejaVu Sans', Arial, sans-serif">Linux  ·  Docker  ·  systemd  ·  Bash  ·  Git</ns0:text>
+  <ns0:line x1="77" y1="1256" x2="1205" y2="1256" stroke="#1e3e63" stroke-width="1"/>
+  <ns0:text x="77" y="1288" fill="#66b9fa" font-size="17" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">DEVELOPMENT</ns0:text>
+  <ns0:text x="320" y="1288" fill="#c9daef" font-size="23" font-weight="normal" font-family="'DejaVu Sans', Arial, sans-serif">Python  ·  FastAPI  ·  Rust  ·  REST API  ·  SQLite</ns0:text>
+  <ns0:line x1="77" y1="1301" x2="1205" y2="1301" stroke="#1e3e63" stroke-width="1"/>
+  <ns0:text x="77" y="1333" fill="#66b9fa" font-size="17" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">NETWORKING</ns0:text>
+  <ns0:text x="320" y="1333" fill="#c9daef" font-size="23" font-weight="normal" font-family="'DejaVu Sans', Arial, sans-serif">TCP/IP  ·  DNS  ·  DHCP  ·  VPN  ·  nftables  ·  Policy Routing</ns0:text>
+  <ns0:rect x="48" y="1398" width="58" height="50" rx="11" fill="#0d2c4d" stroke="#279bf6" stroke-width="1.7"/>
+  <ns0:text x="59" y="1433" fill="#74c7ff" font-size="27" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">03</ns0:text>
+  <ns0:text x="126" y="1435" fill="#e6f3ff" font-size="33" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">Featured Projects</ns0:text>
+  <ns0:text x="1219" y="1431" fill="#78b9ed" font-size="16" font-weight="normal" font-family="'DejaVu Sans Mono', monospace" letter-spacing="1" text-anchor="end">LINUX / NETWORK ENGINEERING</ns0:text>
+  <ns0:line x1="48" y1="1456" x2="1232" y2="1456" stroke="#215786" stroke-width="1.3" stroke-opacity=".7"/>
+  <ns0:svg x="48" y="1486" width="1184" height="279" viewBox="0 0 1280 302" preserveAspectRatio="xMidYMid meet">
+    <ns0:defs>
+      <ns0:linearGradient id="fw_card" x1="0" y1="0" x2="1" y2="1">
+        <ns0:stop stop-color="#0a1b32"/>
+        <ns0:stop offset="1" stop-color="#060f1e"/>
+      </ns0:linearGradient>
+      <ns0:radialGradient id="fw_blob">
+        <ns0:stop stop-color="#1063b3" stop-opacity=".62"/>
+        <ns0:stop offset="1" stop-color="#06142a" stop-opacity="0"/>
+      </ns0:radialGradient>
+      <ns0:pattern id="fw_mini" width="22" height="22" patternUnits="userSpaceOnUse">
+        <ns0:path d="M22 0H0V22" stroke="#2470b6" stroke-opacity=".14" fill="none"/>
+      </ns0:pattern>
+    </ns0:defs>
+    <ns0:rect x="2" y="2" width="1276" height="298" rx="14" fill="url(#fw_card)" stroke="#2969aa" stroke-width="2"/>
+    <ns0:rect x="19" y="18" width="296" height="265" rx="10" fill="#081a32" stroke="#205782" stroke-width="1.3"/>
+    <ns0:rect x="20" y="19" width="294" height="263" rx="10" fill="url(#fw_mini)"/>
+    <ns0:ellipse cx="165" cy="150" rx="156" ry="145" fill="url(#fw_blob)"/>
+    <ns0:circle cx="166" cy="145" r="90" fill="none" stroke="#358dff" stroke-width="2.5" opacity="1"/>
+    <ns0:ellipse cx="166" cy="70" rx="49.2" ry="17.4" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:ellipse cx="166" cy="95" rx="74.0" ry="15.6" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:ellipse cx="166" cy="120" rx="85.5" ry="13.8" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:ellipse cx="166" cy="145" rx="89.0" ry="12.0" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:ellipse cx="166" cy="170" rx="85.5" ry="13.8" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:ellipse cx="166" cy="195" rx="74.0" ry="15.6" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:ellipse cx="166" cy="220" rx="49.2" ry="17.4" fill="none" stroke="#318cff" stroke-width="1.5" stroke-opacity=".65"/>
+    <ns0:path d="M104 56 Q221.8 145 104 236" stroke="#4caaff" stroke-width="1.5" fill="none" opacity="0.68"/>
+    <ns0:path d="M131 56 Q197.5 145 131 236" stroke="#4caaff" stroke-width="1.5" fill="none" opacity="0.68"/>
+    <ns0:path d="M166 56 Q166.0 145 166 236" stroke="#4caaff" stroke-width="1.5" fill="none" opacity="0.68"/>
+    <ns0:path d="M201 56 Q134.5 145 201 236" stroke="#4caaff" stroke-width="1.5" fill="none" opacity="0.68"/>
+    <ns0:path d="M228 56 Q110.19999999999999 145 228 236" stroke="#4caaff" stroke-width="1.5" fill="none" opacity="0.68"/>
+    <ns0:circle cx="134.3" cy="174.4" r="1.3" fill="#8edaff" opacity="0.8461030785188703"/>
+    <ns0:circle cx="101.9" cy="201.1" r="2" fill="#8edaff" opacity="0.6541827116327913"/>
+    <ns0:circle cx="108.7" cy="196.4" r="2.4" fill="#8edaff" opacity="0.35513051397849066"/>
+    <ns0:circle cx="166.5" cy="234.9" r="1.3" fill="#8edaff" opacity="0.5916669809955541"/>
+    <ns0:circle cx="185.6" cy="173.8" r="2.4" fill="#8edaff" opacity="0.525386295036457"/>
+    <ns0:circle cx="162.5" cy="219.7" r="2.4" fill="#8edaff" opacity="0.38272452999577145"/>
+    <ns0:circle cx="169.5" cy="129.0" r="2" fill="#8edaff" opacity="0.812575228170727"/>
+    <ns0:circle cx="182.3" cy="219.9" r="2.4" fill="#8edaff" opacity="0.6113520083483464"/>
+    <ns0:circle cx="154.5" cy="140.8" r="1.3" fill="#8edaff" opacity="0.8522718629164525"/>
+    <ns0:circle cx="132.6" cy="62.4" r="1.3" fill="#8edaff" opacity="0.4966090233980873"/>
+    <ns0:circle cx="168.2" cy="159.4" r="2.4" fill="#8edaff" opacity="0.4501497431784368"/>
+    <ns0:circle cx="229.1" cy="91.3" r="2" fill="#8edaff" opacity="0.5696990026552169"/>
+    <ns0:circle cx="187.6" cy="162.1" r="1.3" fill="#8edaff" opacity="0.7148368769218514"/>
+    <ns0:circle cx="109.5" cy="147.4" r="1.3" fill="#8edaff" opacity="0.397232490585909"/>
+    <ns0:circle cx="243.3" cy="186.1" r="2" fill="#8edaff" opacity="0.5841154194829659"/>
+    <ns0:circle cx="163.7" cy="78.9" r="1.3" fill="#8edaff" opacity="0.7103152849157295"/>
+    <ns0:circle cx="151.4" cy="175.2" r="1.3" fill="#8edaff" opacity="0.7439120007438806"/>
+    <ns0:circle cx="152.2" cy="72.0" r="1.3" fill="#8edaff" opacity="0.8925960053747743"/>
+    <ns0:circle cx="142.3" cy="63.2" r="2" fill="#8edaff" opacity="0.7104913241447752"/>
+    <ns0:circle cx="165.8" cy="74.8" r="2" fill="#8edaff" opacity="0.6806740545974794"/>
+    <ns0:circle cx="237.0" cy="196.2" r="1.3" fill="#8edaff" opacity="0.5905632555466758"/>
+    <ns0:circle cx="158.3" cy="71.2" r="2" fill="#8edaff" opacity="0.7839083213173466"/>
+    <ns0:circle cx="229.8" cy="181.7" r="2.4" fill="#8edaff" opacity="0.4663428355826614"/>
+    <ns0:circle cx="147.5" cy="101.4" r="2.4" fill="#8edaff" opacity="0.5291564922359036"/>
+    <ns0:circle cx="215.4" cy="119.7" r="2" fill="#8edaff" opacity="0.7631177685601451"/>
+    <ns0:circle cx="161.3" cy="103.6" r="1.3" fill="#8edaff" opacity="0.4676125985910241"/>
+    <ns0:circle cx="175.4" cy="205.9" r="1.3" fill="#8edaff" opacity="0.38540125782247625"/>
+    <ns0:circle cx="171.4" cy="212.6" r="1.3" fill="#8edaff" opacity="0.6210328450872643"/>
+    <ns0:circle cx="206.2" cy="183.7" r="2.4" fill="#8edaff" opacity="0.4151838597091311"/>
+    <ns0:circle cx="235.6" cy="143.9" r="2.4" fill="#8edaff" opacity="0.4561711039685071"/>
+    <ns0:circle cx="174.3" cy="89.2" r="2" fill="#8edaff" opacity="0.8415460590201915"/>
+    <ns0:circle cx="172.8" cy="131.0" r="2.4" fill="#8edaff" opacity="0.7396692821229751"/>
+    <ns0:circle cx="185.9" cy="174.0" r="2.4" fill="#8edaff" opacity="0.7073354468188208"/>
+    <ns0:circle cx="200.0" cy="213.8" r="1.3" fill="#8edaff" opacity="0.3730617383896329"/>
+    <ns0:circle cx="128.4" cy="80.1" r="1.3" fill="#8edaff" opacity="0.7249335707695119"/>
+    <ns0:circle cx="241.6" cy="104.6" r="2" fill="#8edaff" opacity="0.5061690426131064"/>
+    <ns0:circle cx="162.9" cy="200.4" r="1.3" fill="#8edaff" opacity="0.8062344813173694"/>
+    <ns0:circle cx="198.3" cy="110.1" r="2.4" fill="#8edaff" opacity="0.5791404609886863"/>
+    <ns0:circle cx="166" cy="145" r="94" fill="none" stroke="#57b5fa" stroke-width="1" opacity="0.8"/>
+    <ns0:path d="M56 223 L101 202 L145 225 L205 186 L278 217" stroke="#6accff" stroke-width="2.3" fill="none" opacity="0.8"/>
+    <ns0:circle cx="56" cy="223" r="4" fill="#64c1ff" opacity="1"/>
+    <ns0:circle cx="101" cy="202" r="4" fill="#64c1ff" opacity="1"/>
+    <ns0:circle cx="145" cy="225" r="4" fill="#64c1ff" opacity="1"/>
+    <ns0:circle cx="205" cy="186" r="4" fill="#64c1ff" opacity="1"/>
+    <ns0:circle cx="278" cy="217" r="4" fill="#64c1ff" opacity="1"/>
+    <ns0:rect x="338" y="34" width="213" height="28" rx="14" fill="#0d3560" stroke="#1e6bba" stroke-width="1"/>
+    <ns0:circle cx="353" cy="48" r="3.4" fill="#5fd4ff" opacity="1"/>
+    <ns0:text x="366" y="53" fill="#a9d3fa" font-family="'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" letter-spacing="0.6">LINUX NETWORK CONTROL PLANE</ns0:text>
+    <ns0:text x="341" y="112" fill="#eef7ff" font-family="'DejaVu Sans',Arial,sans-serif" font-size="50" font-weight="800" letter-spacing="0.5">FWRouter</ns0:text>
+    <ns0:path d="M342 128H1198" stroke="#22558d" stroke-width="1.1" fill="none" opacity="1"/>
+    <ns0:text x="343" y="166" fill="#b6cae4" font-family="'DejaVu Sans',Arial,sans-serif" font-size="23" font-weight="400" letter-spacing="0">Linux traffic routing, network policy</ns0:text>
+    <ns0:text x="343" y="198" fill="#b6cae4" font-family="'DejaVu Sans',Arial,sans-serif" font-size="23" font-weight="400" letter-spacing="0">and infrastructure control through a Web UI.</ns0:text>
+    <ns0:rect x="342" y="246" width="106" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="395.0" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">PYTHON</ns0:text>
+    <ns0:rect x="459" y="246" width="119" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="518.5" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">FASTAPI</ns0:text>
+    <ns0:rect x="589" y="246" width="99" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="638.5" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">LINUX</ns0:text>
+    <ns0:rect x="699" y="246" width="132" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="765.0" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">NFTABLES</ns0:text>
+    <ns0:rect x="990" y="36" width="240" height="34" rx="8" fill="#0d2c43" stroke="#306ba4" stroke-width="1"/>
+    <ns0:text x="1110" y="59" fill="#75c6fe" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="1" text-anchor="middle">OPEN SOURCE</ns0:text>
+  </ns0:svg>
+  <ns0:svg x="48" y="1781" width="1184" height="279" viewBox="0 0 1280 302" preserveAspectRatio="xMidYMid meet">
+    <ns0:defs>
+      <ns0:linearGradient id="pet_card" x1="0" y1="0" x2="1" y2="1">
+        <ns0:stop stop-color="#0a1b32"/>
+        <ns0:stop offset="1" stop-color="#060f1e"/>
+      </ns0:linearGradient>
+      <ns0:radialGradient id="pet_blob">
+        <ns0:stop stop-color="#1063b3" stop-opacity=".62"/>
+        <ns0:stop offset="1" stop-color="#06142a" stop-opacity="0"/>
+      </ns0:radialGradient>
+      <ns0:pattern id="pet_mini" width="22" height="22" patternUnits="userSpaceOnUse">
+        <ns0:path d="M22 0H0V22" stroke="#2470b6" stroke-opacity=".14" fill="none"/>
+      </ns0:pattern>
+    </ns0:defs>
+    <ns0:rect x="2" y="2" width="1276" height="298" rx="14" fill="url(#pet_card)" stroke="#2969aa" stroke-width="2"/>
+    <ns0:rect x="19" y="18" width="296" height="265" rx="10" fill="#081a32" stroke="#205782" stroke-width="1.3"/>
+    <ns0:rect x="20" y="19" width="294" height="263" rx="10" fill="url(#pet_mini)"/>
+    <ns0:ellipse cx="165" cy="150" rx="156" ry="145" fill="url(#pet_blob)"/>
+    <ns0:path d="M82 102L175 78" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="149.89" cy="84.48" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M175 78L251 145" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="230.48" cy="126.91" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M251 145L206 226" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="218.15" cy="204.13" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M82 102L99 220" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="94.41" cy="188.14" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M99 220L206 226" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="177.11" cy="224.38" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M99 220L167 154" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="148.64" cy="171.82" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M167 154L175 78" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="172.84" cy="98.52000000000001" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M167 154L206 226" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="195.47" cy="206.56" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:path d="M251 145L167 154" stroke="#4da8ff" stroke-width="2.0" fill="none" opacity="0.77"/>
+    <ns0:circle cx="189.68" cy="151.57" r="2.7" fill="#80d7ff" opacity="1"/>
+    <ns0:circle cx="82" cy="102" r="18" fill="#0d2c53" stroke="#59aaff" stroke-width="2.3" opacity="1"/>
+    <ns0:circle cx="82" cy="102" r="5" fill="#78d1ff" opacity="1"/>
+    <ns0:circle cx="175" cy="78" r="18" fill="#0d2c53" stroke="#59aaff" stroke-width="2.3" opacity="1"/>
+    <ns0:circle cx="175" cy="78" r="5" fill="#78d1ff" opacity="1"/>
+    <ns0:circle cx="251" cy="145" r="18" fill="#0d2c53" stroke="#59aaff" stroke-width="2.3" opacity="1"/>
+    <ns0:circle cx="251" cy="145" r="5" fill="#78d1ff" opacity="1"/>
+    <ns0:circle cx="99" cy="220" r="18" fill="#0d2c53" stroke="#59aaff" stroke-width="2.3" opacity="1"/>
+    <ns0:circle cx="99" cy="220" r="5" fill="#78d1ff" opacity="1"/>
+    <ns0:circle cx="206" cy="226" r="18" fill="#0d2c53" stroke="#59aaff" stroke-width="2.3" opacity="1"/>
+    <ns0:circle cx="206" cy="226" r="5" fill="#78d1ff" opacity="1"/>
+    <ns0:circle cx="167" cy="154" r="18" fill="#0d2c53" stroke="#59aaff" stroke-width="2.3" opacity="1"/>
+    <ns0:circle cx="167" cy="154" r="5" fill="#78d1ff" opacity="1"/>
+    <ns0:path d="M52 261H278" stroke="#2478bb" stroke-width="1.5" fill="none" opacity="1"/>
+    <ns0:rect x="338" y="34" width="260" height="28" rx="14" fill="#0d3560" stroke="#1e6bba" stroke-width="1"/>
+    <ns0:circle cx="353" cy="48" r="3.4" fill="#5fd4ff" opacity="1"/>
+    <ns0:text x="366" y="53" fill="#a9d3fa" font-family="'DejaVu Sans Mono',monospace" font-size="11" font-weight="700" letter-spacing="0.6">PETRI NET EDITOR &amp; SIMULATOR</ns0:text>
+    <ns0:text x="341" y="112" fill="#eef7ff" font-family="'DejaVu Sans',Arial,sans-serif" font-size="50" font-weight="800" letter-spacing="0.5">PetriNet</ns0:text>
+    <ns0:path d="M342 128H1198" stroke="#22558d" stroke-width="1.1" fill="none" opacity="1"/>
+    <ns0:text x="343" y="166" fill="#b6cae4" font-family="'DejaVu Sans',Arial,sans-serif" font-size="23" font-weight="400" letter-spacing="0">Visual Petri net modeling, simulation</ns0:text>
+    <ns0:text x="343" y="198" fill="#b6cae4" font-family="'DejaVu Sans',Arial,sans-serif" font-size="23" font-weight="400" letter-spacing="0">and analysis in a desktop application.</ns0:text>
+    <ns0:rect x="342" y="246" width="99" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="391.5" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">RUST</ns0:text>
+    <ns0:rect x="452" y="246" width="158" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="531.0" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">SIMULATION</ns0:text>
+    <ns0:rect x="621" y="246" width="132" height="31" rx="7" fill="#142b44" stroke="#2b527b" stroke-width="1"/>
+    <ns0:text x="687.0" y="267" fill="#b7d7fa" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="0" text-anchor="middle">MODELING</ns0:text>
+    <ns0:rect x="931" y="36" width="302" height="34" rx="8" fill="#0d2c43" stroke="#306ba4" stroke-width="1"/>
+    <ns0:text x="1082" y="59" fill="#75c6fe" font-family="'DejaVu Sans Mono',monospace" font-size="15" font-weight="700" letter-spacing="1" text-anchor="middle">REGISTERED SOFTWARE</ns0:text>
+  </ns0:svg>
+  <ns0:rect x="48" y="2109" width="58" height="50" rx="11" fill="#0d2c4d" stroke="#279bf6" stroke-width="1.7"/>
+  <ns0:text x="59" y="2144" fill="#74c7ff" font-size="27" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">04</ns0:text>
+  <ns0:text x="126" y="2146" fill="#e6f3ff" font-size="33" font-weight="bold" font-family="'DejaVu Sans', Arial, sans-serif">Current Focus</ns0:text>
+  <ns0:text x="1219" y="2142" fill="#78b9ed" font-size="16" font-weight="normal" font-family="'DejaVu Sans Mono', monospace" letter-spacing="1" text-anchor="end">NEXT STEPS / LEARNING</ns0:text>
+  <ns0:line x1="48" y1="2167" x2="1232" y2="2167" stroke="#215786" stroke-width="1.3" stroke-opacity=".7"/>
+  <ns0:svg x="48" y="2190" width="1184" height="118" viewBox="0 0 1280 127" preserveAspectRatio="xMidYMid meet">
+    <ns0:defs/>
+    <ns0:rect x="2" y="2" width="308" height="120" rx="12" fill="#0b1d32" stroke="#215284" stroke-width="1.5"/>
+    <ns0:rect x="18" y="20" width="54" height="54" rx="12" fill="#0d3461" stroke="#2e7ed2" stroke-width="1"/>
+    <ns0:circle cx="45" cy="47" r="15" fill="none" stroke="#59aeff" stroke-width="2" opacity="1"/>
+    <ns0:path d="M38 47L43 53L55 39" stroke="#8ad5ff" stroke-width="3" fill="none" opacity="1"/>
+    <ns0:text x="86" y="52" fill="#eef8ff" font-family="'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" letter-spacing="0">CI / CD</ns0:text>
+    <ns0:text x="22" y="104" fill="#97bde3" font-family="'DejaVu Sans',Arial,sans-serif" font-size="15" font-weight="400" letter-spacing="0">Build &amp; testing</ns0:text>
+    <ns0:rect x="326" y="2" width="308" height="120" rx="12" fill="#0b1d32" stroke="#215284" stroke-width="1.5"/>
+    <ns0:rect x="342" y="20" width="54" height="54" rx="12" fill="#0d3461" stroke="#2e7ed2" stroke-width="1"/>
+    <ns0:path d="M369 29l17 9-17 9-17-9Z" fill="none" stroke="#5ab4ff" stroke-width="2"/>
+    <ns0:path d="M369 41l17 9-17 9-17-9Z" fill="none" stroke="#5ab4ff" stroke-width="2"/>
+    <ns0:path d="M369 53l17 9-17 9-17-9Z" fill="none" stroke="#5ab4ff" stroke-width="2"/>
+    <ns0:text x="410" y="52" fill="#eef8ff" font-family="'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" letter-spacing="0">CONTAINERS</ns0:text>
+    <ns0:text x="346" y="104" fill="#97bde3" font-family="'DejaVu Sans',Arial,sans-serif" font-size="15" font-weight="400" letter-spacing="0">Containerization</ns0:text>
+    <ns0:rect x="650" y="2" width="308" height="120" rx="12" fill="#0b1d32" stroke="#215284" stroke-width="1.5"/>
+    <ns0:rect x="666" y="20" width="54" height="54" rx="12" fill="#0d3461" stroke="#2e7ed2" stroke-width="1"/>
+    <ns0:rect x="676" y="32" width="34" height="8" rx="2" fill="#2379c8"/>
+    <ns0:rect x="676" y="43" width="34" height="8" rx="2" fill="#2379c8"/>
+    <ns0:rect x="676" y="54" width="34" height="8" rx="2" fill="#2379c8"/>
+    <ns0:circle cx="706" cy="36" r="1.7" fill="#b9eaff" opacity="1"/>
+    <ns0:text x="734" y="52" fill="#eef8ff" font-family="'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" letter-spacing="0">INFRASTRUCTURE</ns0:text>
+    <ns0:text x="670" y="104" fill="#97bde3" font-family="'DejaVu Sans',Arial,sans-serif" font-size="15" font-weight="400" letter-spacing="0">Infrastructure automation</ns0:text>
+    <ns0:rect x="974" y="2" width="308" height="120" rx="12" fill="#0b1d32" stroke="#215284" stroke-width="1.5"/>
+    <ns0:rect x="990" y="20" width="54" height="54" rx="12" fill="#0d3461" stroke="#2e7ed2" stroke-width="1"/>
+    <ns0:path d="M1017 27L1035 34V49Q1032 62 1017 71Q1002 62 999 49V34Z" stroke="#4eabff" stroke-width="2" fill="#12518f" opacity="1"/>
+    <ns0:text x="1058" y="52" fill="#eef8ff" font-family="'DejaVu Sans Mono',monospace" font-size="18" font-weight="700" letter-spacing="0">NETWORK SECURITY</ns0:text>
+    <ns0:text x="994" y="104" fill="#97bde3" font-family="'DejaVu Sans',Arial,sans-serif" font-size="15" font-weight="400" letter-spacing="0">Networks &amp; security</ns0:text>
+  </ns0:svg>
+</ns0:svg>
