@@ -1,72 +1,74 @@
+# Привет, я Coxf0rd
 
-<div align="center">
+**Linux · Сетевые технологии · DevOps · Автоматизация**
 
-# Coxf0rd
-
-**Linux Infrastructure · Networking · DevOps · Automation**
-
-Building practical tools for Linux systems, networking and infrastructure management.
-
-</div>
+[Русский](README.md) | [English](README_EN.md)
 
 ---
 
-### About me
+### Обо мне
 
-I'm a developer and master's student interested in
-Linux infrastructure, computer networks and DevOps.
+Занимаюсь разработкой программного обеспечения, настройкой Linux-систем и сетевой инфраструктуры.
 
-My main focus is building and maintaining tools for
-network management, backend services and automation.
+Окончил бакалавриат по направлению «Информационные системы и технологии». Сейчас обучаюсь в магистратуре КНИТУ-КАИ по направлению «Информатика и вычислительная техника».
 
-Currently improving my skills in Docker, Bash,
-CI/CD and Linux system administration.
+Основные интересы — Linux, компьютерные сети, серверная инфраструктура, автоматизация и DevOps.
 
-### Tech Stack
+### Технологии и инструменты
 
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+**Операционные системы и инфраструктура**
 
-### Featured Project
+Linux · Docker · Docker Compose · systemd · Bash
+
+**Разработка**
+
+Python · FastAPI · Rust · Git · REST API
+
+**Сети**
+
+TCP/IP · DNS · DHCP · VPN · nftables · Маршрутизация · MikroTik · pfSense
+
+**Изучаю и развиваю**
+
+CI/CD · GitLab CI · GitHub Actions · Автоматизация инфраструктуры
+
+---
+
+### Проекты
 
 #### [FWRouter](https://github.com/Coxf0rd/fwrouter)
 
-Linux traffic-routing control plane with a web interface.
+Система управления сетевой инфраструктурой Linux с веб-интерфейсом.
 
-- Global and selective traffic routing
-- nftables and policy-based routing
-- FastAPI backend with persistent state
-- systemd integration
-- Optional Docker-based proxy runtimes
+Основные возможности:
+- Управление глобальной и выборочной маршрутизацией трафика.
+- Работа с nftables и policy-based routing.
+- Управление настройками через FastAPI и веб-интерфейс.
+- Интеграция с systemd.
+- Подключение дополнительных сетевых сервисов и Docker-контейнеров.
 
-**Stack:** Python, FastAPI, SQLite, Linux,
-nftables, systemd, Docker
+**Стек:** Python, FastAPI, SQLite, Linux, nftables, systemd, Docker.
 
-### Other Work
+#### PetriNet
 
-**PetriNet** — Desktop application for visual editing
-and simulation of Petri nets, developed in Rust.
+Настольное приложение для визуального построения, редактирования и имитационного моделирования сетей Петри.
 
-Co-author of the registered software application.
-Source code is not publicly available.
+Разработано на Rust. Включает графический редактор и инструменты моделирования.
 
-### Current Focus
+Являюсь соавтором программы, зарегистрированной в Роспатенте (свидетельство № 2026680027).
 
-- Linux system administration
-- Docker and containerization
-- Bash scripting and automation
-- CI/CD pipelines
-- Networking and infrastructure security
+Исходный код публично не распространяется.
 
 ---
 
-<div align="center">
+### Сейчас изучаю
 
-**Open to learning, collaboration and engineering challenges.**
+- Продвинутое администрирование Linux.
+- Контейнеризацию и Docker.
+- Bash-скрипты и автоматизацию.
+- CI/CD и процессы развёртывания.
+- Архитектуру и эксплуатацию серверных систем.
 
-</div>
+---
+
+*Интересуюсь инфраструктурной разработкой, автоматизацией и инженерными задачами.*
